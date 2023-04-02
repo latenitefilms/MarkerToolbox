@@ -2,4 +2,7 @@
 
 ### 1.0.0
 
-Coming soon.
+**🎉 Released:**
+- COMING SOON!
+
+This is the first release of Marker Toolbox. Woohoo!

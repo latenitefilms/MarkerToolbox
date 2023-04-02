@@ -8,7 +8,7 @@ Marker Toolbox does not use any third-party analytics or tracking tools. It does
 
 If you supply an OpenAI API key, Marker Toolbox can communicate with the OpenAI API for the **Process Comments with ChatGPT** feature.
 
-The only information that is sent to the OpenAI API is the supplied email comments, and your API key.
+The only information that is securely sent to the OpenAI API is the supplied email comments, and your API key (which is stored securely on Apple's Keychain).
 
 You can learn more about OpenAI's API [here](https://platform.openai.com/docs/api-reference).
 
