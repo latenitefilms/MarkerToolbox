@@ -52,6 +52,8 @@ These settings allow you to add the Username, Replies and Date Added to the Mark
 
 ![_Screenshot of Marker Toolbox_](static/marker-options-ticked.png)
 
+These settings should be applied **before** you import a CSV. If you change them, you should import your CSV again for the FCPXML to be updated.
+
 ---
 
 ### Convert Email Comments to Markers
