@@ -4,6 +4,8 @@ Marker Toolbox has been thrown together by [Chris Hocking](https://github.com/la
 
 Chris also created [CommandPost](https://commandpost.io), [BRAW Toolbox](https://brawtoolbox.io) and [Gyroflow Toolbox](https://gyroflowtoolbox.io).
 
+The BRAW Toolbox icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com/).
+
 Marker Toolbox uses [CHCSVParser](https://github.com/davedelong/CHCSVParser). Thanks [davedelong](https://github.com/davedelong)!
 
 ---

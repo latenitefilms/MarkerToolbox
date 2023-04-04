@@ -121,21 +121,22 @@ Finally, you can customise the ChatGPT prompt as required.
 
 The default prompt is:
 
-> Your job is to transform emailed timecode notes from a client into a JSON file.
+> ```
+> Your job is to convert human written notes about a single video edit from a client into JSON data for a video editor to action.
 >
-> You should only ever reply with the JSON output. No further comments or explanation is required.
+> You should only ever reply with the JSON data. No further comments or explanation is required.
 >
 > The JSON format should be as follows:
 >
-> [{"timestamp":"<Seconds>","comment":"<Comment>"},...]
+> [{\"timestamp\":\"<Seconds>\",\"comment\":\"<Comment>\"},...]
 >
-> Any timecode value (i.e. "HH:MM:SS:FF" for hours, minutes, seconds and frames), should be converted into seconds.
+> The <Seconds> value should never be below zero.
 >
-> The frame rate of all timecode values, and frame values should be <FRAMERATE>.
+> SMPTE timecode values (i.e. \"HH:MM:SS:FF\" for hours, minutes, seconds and frames), should be converted into seconds.
 >
-> If another time value is described, you should make your best guess as to what that time value should be.
+> The frame rate of all SMTPE timecode values, and frame explanations (i.e. '300 frames later') should be <FRAMERATE>.
 >
-> For example, if I said the frame rate was 25fps, and the email said:
+> For example, if I said the frame rate was 25fps, and the notes said:
 >
 > 1sec: I really like this shot
 > 00:00:02 Please remove this shot
@@ -147,30 +148,29 @@ The default prompt is:
 > * something really cool happens 10 seconds later
 > - insert monkey at 12 frames
 >
-> The output should be:
+> Your reply should be:
 >
 > [
-> {"timestamp":"1", "comment":"I really like this shot"},
-> {"timestamp":"2", "comment":"Please remove this shot"},
-> {"timestamp":"83", "comment":"Fix this window"},
-> {"timestamp":"300", "comment":"Remove the cat"},
-> {"timestamp":"600", "comment":"Replace this shot"}
-> {"timestamp":"0.04", "comment":"Add a sound effect here"}
-> {"timestamp":"6", "comment":"I really like the shot"}
-> {"timestamp":"16", "comment":"Something really cool happens"}
-> {"timestamp":"0.48", "comment":"Insert monkey"}
+> {\"timestamp\":\"1\", \"comment\":\"I really like this shot\"},
+> {\"timestamp\":\"2\", \"comment\":\"Please remove this shot\"},
+> {\"timestamp\":\"83\", \"comment\":\"Fix this window\"},
+> {\"timestamp\":\"300\", \"comment\":\"Remove the cat\"},
+> {\"timestamp\":\"600\", \"comment\":\"Replace this shot\"}
+> {\"timestamp\":\"0.04\", \"comment\":\"Add a sound effect here\"}
+> {\"timestamp\":\"6\", \"comment\":\"I really like the shot\"}
+> {\"timestamp\":\"16\", \"comment\":\"Something really cool happens\"}
+> {\"timestamp\":\"0.48\", \"comment\":\"Insert monkey\"}
 > ]
 >
 > Please be careful about whether a timecode value is relative to the previous comment's timecode value (i.e. '10 seconds later') and calculate accordingly.
 >
-> If there is a general note with no timecode, use a 0 second timestamp value.
+> If there is a general note with no timecode or timing value, please use a 0 second timestamp value.
 >
-> Please process the below email:
+> Please process the below notes:
 >
-> ```
 > <COMMENT>
 > ```
 
-You must include both the **<FRAMERATE>** and **<COMMENT>** in the prompt.
+You must include both the **`<FRAMERATE>`** and **`<COMMENT>`** in the prompt.
 
 Please be aware that ChatGPT can be fairly unpredictable, and each time you press the **Process Comments with ChatGPT** button you might slightly different results.
