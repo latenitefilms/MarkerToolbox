@@ -3,6 +3,6 @@
 ### 1.0.0
 
 **🎉 Released:**
-- COMING SOON!
+- 6th April 2023
 
 This is the first release of Marker Toolbox. Woohoo!
