@@ -13,9 +13,3 @@ You can learn more about OpenAI's pricing [here](https://openai.com/pricing).
 Yes, you can use third party iPhone apps, such as [Timecode+](https://apps.apple.com/app/id590534084).
 
 Simply **Share as Text** in the Timecode+ App, then use the **Paste** button in Marker Toolbox to paste the text, and then **Process Comments Locally**.
-
----
-
-### Does Marker Toolbox work with Dropbox Replay?
-
-Dropbox Replay support will be added in version v1.0.1 very soon!
