@@ -18,4 +18,4 @@ Simply **Share as Text** in the Timecode+ App, then use the **Paste** button in 
 
 ### Does Marker Toolbox work with Dropbox Replay?
 
-We currently don't have Dropbox Replay support, however this is definitely [on our roadmap](https://github.com/latenitefilms/MarkerToolbox/issues/1) for a future update.
+Dropbox Replay support will be added in version v1.0.1 very soon!
