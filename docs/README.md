@@ -1,6 +1,6 @@
 # Marker Toolbox
 
-Marker Toolbox allows you to import Vimeo CSV, Dropbox Replay JSON & Email Comments into Apple's [Final Cut Pro](https://www.apple.com/final-cut-pro/).
+Marker Toolbox allows you to import **Vimeo** CSV, **Dropbox Replay** JSON & Email Comments processed with **ChatGPT** into Apple's [Final Cut Pro](https://www.apple.com/final-cut-pro/).
 
 > [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/us/app/marker-toolbox/id6446810965)
 

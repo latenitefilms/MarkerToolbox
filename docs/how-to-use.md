@@ -14,24 +14,23 @@ The first time you launch Marker Toolbox it will look like this:
 
 ---
 
-### Convert Vimeo CSV & Dropbox Replay JSON to Markers
+### Convert Dropbox Replay JSON to Markers
 
-This feature allows you to easily import Vimeo CSV and Dropbox Replay JSON files as markers and titles in Final Cut Pro.
+This feature allows you to easily import Dropbox Replay JSON files as markers and titles in Final Cut Pro.
 
-You can learn more about exporting CSV files from Vimeo [here](https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-).
+Drawn annotations in Dropbox Replay also come across to Final Cut Pro:
 
-This functionality has been built into [CommandPost](https://commandpost.io) for a while, however we've improved upon it based on user feedback.
+![_Screenshot of Dropbox Replay_](static/dropbox-replay-annotations.png)
 
-You can export a Dropbox Replay JSON file by clicking the Export Comments button, then selecting JSON:
+You can export a Dropbox Replay JSON file by clicking the **Export Comments** button, then selecting JSON:
 
 ![_Screenshot of Dropbox Replay_](static/dropbox-replay.png)
 
-
-Simply drag a CSV or JSON file into the drop zone, or click the **Select File** button:
+Once exported, simply drag the JSON file into the drop zone, or click the **Select File** button:
 
 ![_Screenshot of Marker Toolbox_](static/vimeo-csv.png)
 
-Assuming the CSV or JSON is correct and valid, the draggable icon on the bottom of the interface will now be green:
+Assuming the JSON is correct and valid, the draggable icon on the bottom of the interface will now be green:
 
 ![_Screenshot of Marker Toolbox_](static/drag.png)
 
@@ -57,9 +56,53 @@ These settings allow you to add the Author, Replies and Date Added to the Marker
 
 ![_Screenshot of Marker Toolbox_](static/marker-options-ticked.png)
 
-These settings should be applied **before** you import a CSV/JSON. If you change them, you should import your CSV/JSON again for the FCPXML to be updated.
+These settings should be applied **before** you import a JSON. If you change them, you should import your JSON again for the FCPXML to be updated.
 
-In Marker Toolbox v1.0.1, The frame rate you select is the **Settings** panel is also used for CSV/JSON files (as opposed to defaulting to 25fps).
+The frame rate you select is the **Settings** panel is also used for JSON files.
+
+---
+
+### Convert Vimeo CSV to Markers
+
+This feature allows you to easily import Vimeo CSV as markers and titles in Final Cut Pro.
+
+You can learn more about exporting CSV files from Vimeo [here](https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-).
+
+This functionality has been built into [CommandPost](https://commandpost.io) for a while, however we've improved upon it based on user feedback.
+
+Once exported, simply drag a CSV file into the drop zone, or click the **Select File** button:
+
+![_Screenshot of Marker Toolbox_](static/vimeo-csv.png)
+
+Assuming the CSV is correct and valid, the draggable icon on the bottom of the interface will now be green:
+
+![_Screenshot of Marker Toolbox_](static/drag.png)
+
+You can now drag this green icon into your Final Cut Pro timeline or browser.
+
+If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
+
+![_Screenshot of Marker Toolbox_](static/timeline.png)
+
+You can then use the **Clip > Break Apart Clip Items** menubar item to break the Compound Clip into individual markers:
+
+![_Screenshot of Marker Toolbox_](static/break-apart-clip-items.png)
+
+This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.
+
+![_Screenshot of Marker Toolbox_](static/timeline-break-apart.png)
+
+Back in the Workflow Extension there are three Marker Options:
+
+![_Screenshot of Marker Toolbox_](static/marker-options.png)
+
+These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:
+
+![_Screenshot of Marker Toolbox_](static/marker-options-ticked.png)
+
+These settings should be applied **before** you import a CSV. If you change them, you should import your CSV again for the FCPXML to be updated.
+
+The frame rate you select is the **Settings** panel is also used for CSV files.
 
 ---
 

@@ -3,7 +3,7 @@
 ### 1.0.1
 
 **🎉 Released:**
-- COMING SOON!
+- 8th April 2023
 
 **🥳 New Features:**
 - Added support for Dropbox Replay JSON files. Thanks for suggesting Aaron Trinder!
