@@ -28,7 +28,7 @@ You can export a Dropbox Replay JSON file by clicking the **Export Comments** bu
 
 Once exported, simply drag the JSON file into the drop zone, or click the **Select File** button:
 
-![_Screenshot of Marker Toolbox_](static/vimeo-csv.png)
+![_Screenshot of Marker Toolbox_](static/top-section.png)
 
 Assuming the JSON is correct and valid, the draggable icon on the bottom of the interface will now be green:
 
@@ -48,17 +48,15 @@ This is handy because the individual markers will now be attached to the clips o
 
 ![_Screenshot of Marker Toolbox_](static/timeline-break-apart.png)
 
-Back in the Workflow Extension there are three Marker Options:
+Back in the Workflow Extension if you click the **Settings** button, you can set the Frame Rate and what information is used for the Marker Name:
 
-![_Screenshot of Marker Toolbox_](static/marker-options.png)
+![_Screenshot of Marker Toolbox_](static/top-settings.png)
 
 These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:
 
 ![_Screenshot of Marker Toolbox_](static/marker-options-ticked.png)
 
 These settings should be applied **before** you import a JSON. If you change them, you should import your JSON again for the FCPXML to be updated.
-
-The frame rate you select is the **Settings** panel is also used for JSON files.
 
 ---
 
@@ -72,7 +70,7 @@ This functionality has been built into [CommandPost](https://commandpost.io) for
 
 Once exported, simply drag a CSV file into the drop zone, or click the **Select File** button:
 
-![_Screenshot of Marker Toolbox_](static/vimeo-csv.png)
+![_Screenshot of Marker Toolbox_](static/top-section.png)
 
 Assuming the CSV is correct and valid, the draggable icon on the bottom of the interface will now be green:
 
@@ -92,9 +90,9 @@ This is handy because the individual markers will now be attached to the clips o
 
 ![_Screenshot of Marker Toolbox_](static/timeline-break-apart.png)
 
-Back in the Workflow Extension there are three Marker Options:
+Back in the Workflow Extension if you click the **Settings** button, you can set the Frame Rate and what information is used for the Marker Name:
 
-![_Screenshot of Marker Toolbox_](static/marker-options.png)
+![_Screenshot of Marker Toolbox_](static/top-settings.png)
 
 These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:
 
@@ -102,7 +100,49 @@ These settings allow you to add the Author, Replies and Date Added to the Marker
 
 These settings should be applied **before** you import a CSV. If you change them, you should import your CSV again for the FCPXML to be updated.
 
-The frame rate you select is the **Settings** panel is also used for CSV files.
+---
+
+### Convert Wipster CSV to Markers
+
+This feature allows you to easily import a Wipster CSV as markers and titles in Final Cut Pro.
+
+You can export a CSV from Wipster, by clicking the **Download** button on your video, then the **Export CSV** option.
+
+![_Screenshot of Wipster_](static/wipster.png)
+
+You can learn more about exporting CSV files from Wipster [here](https://intercom.help/wipster-support/en/articles/3350841-can-i-print-out-the-comments-on-my-video-or-image).
+
+Once exported, simply drag a CSV file into the drop zone, or click the **Select File** button:
+
+![_Screenshot of Marker Toolbox_](static/top-section.png)
+
+Assuming the CSV is correct and valid, the draggable icon on the bottom of the interface will now be green:
+
+![_Screenshot of Marker Toolbox_](static/drag.png)
+
+You can now drag this green icon into your Final Cut Pro timeline or browser.
+
+If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
+
+![_Screenshot of Marker Toolbox_](static/timeline.png)
+
+You can then use the **Clip > Break Apart Clip Items** menubar item to break the Compound Clip into individual markers:
+
+![_Screenshot of Marker Toolbox_](static/break-apart-clip-items.png)
+
+This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.
+
+![_Screenshot of Marker Toolbox_](static/timeline-break-apart.png)
+
+Back in the Workflow Extension if you click the **Settings** button, you can set the Frame Rate and what information is used for the Marker Name:
+
+![_Screenshot of Marker Toolbox_](static/top-settings.png)
+
+These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:
+
+![_Screenshot of Marker Toolbox_](static/marker-options-ticked.png)
+
+These settings should be applied **before** you import a CSV. If you change them, you should import your CSV again for the FCPXML to be updated.
 
 ---
 

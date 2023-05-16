@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.1.0
+
+**🎉 Released:**
+- 16th May 2023
+
+
+**🥳 New Features:**
+- Added [Wipster](https://www.wipster.io) CSV support. Thanks for suggesting Alister Robbie!
+
+**🔨 Improvements:**
+- The **Process Comments Locally** algorithm now supports time units without spaces in-between (i.e. "1hr10mins"), and shortened time units (i.e. "h", "m", "s", "f"). Thanks for reporting Matthieu Laclau!
+
+---
+
 ### 1.0.1
 
 **🎉 Released:**

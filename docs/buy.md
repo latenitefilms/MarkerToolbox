@@ -1,8 +1,8 @@
 # Buy on Mac App Store
 
-**Marker Toolbox** is on sale on the macOS App Store for **USD$9.99** for the first month only as a thank-you to our early adopters.
+**Marker Toolbox** was on sale on the macOS App Store for **USD$9.99** for the **first month only** as a thank-you to our early adopters.
 
-Starting on **6th May** the price will increase to **USD$19.99**.
+Starting on **6th May** the price increased to **USD$19.99**.
 
 It's a one-time payment, not subscription.
 
