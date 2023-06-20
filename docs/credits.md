@@ -1,12 +1,12 @@
 # Credits
 
-Marker Toolbox has been thrown together by [Chris Hocking](https://github.com/latenitefilms) at [LateNite Films](https://latenitefilms.com).
+Marker Toolbox has been thrown together by [Chris Hocking](https://github.com/latenitefilms){target="_blank"} at [LateNite Films](https://latenitefilms.com){target="_blank"}.
 
-Chris also created [CommandPost](https://commandpost.io), [BRAW Toolbox](https://brawtoolbox.io) and [Gyroflow Toolbox](https://gyroflowtoolbox.io).
+Chris also created [CommandPost](https://commandpost.io){target="_blank"}, [BRAW Toolbox](https://brawtoolbox.io){target="_blank"} and [Gyroflow Toolbox](https://gyroflowtoolbox.io){target="_blank"}.
 
-The BRAW Toolbox icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com/).
+The BRAW Toolbox icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com/){target="_blank"}.
 
-Marker Toolbox uses [CHCSVParser](https://github.com/davedelong/CHCSVParser). Thanks [davedelong](https://github.com/davedelong)!
+Marker Toolbox uses [CHCSVParser](https://github.com/davedelong/CHCSVParser){target="_blank"}. Thanks [davedelong](https://github.com/davedelong){target="_blank"}!
 
 ---
 

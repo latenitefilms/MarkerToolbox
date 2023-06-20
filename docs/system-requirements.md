@@ -1,5 +1,7 @@
 # System Requirements
 
-Marker Toolbox requires **Final Cut Pro 10.6.5** or later.
+Marker Toolbox runs as a standalone application.
 
-You can find Final Cut Pro's system requirements [here](https://www.apple.com/au/final-cut-pro/specs/).
+The Marker Toolbox Workflow Extension requires **Final Cut Pro 10.6.5** or later (including **Final Cut Pro 10.6.6**).
+
+You can find Final Cut Pro's system requirements [here](https://www.apple.com/au/final-cut-pro/specs/){target="_blank"}.

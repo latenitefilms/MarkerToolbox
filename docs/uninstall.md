@@ -1,8 +1,8 @@
 # Uninstall
 
-To uninstall Marker Toolbox, simply drag the application to the trash/bin.
+To uninstall **Marker Toolbox**, simply drag the application to the trash/bin.
 
-To remove Marker Toolbox completely, log files and debugging FCPXMLs can be found in this folder:
+To remove **Marker Toolbox** completely, log files and debugging `FCPXML`s can be found in these folders:
 
 ```
 ~/Library/Containers/com.latenitefilms.MarkerToolbox.WorkflowExtension/

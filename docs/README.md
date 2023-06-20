@@ -4,7 +4,7 @@ Marker Toolbox allows you to import **Vimeo** `CSV`, **Wipster** `CSV`, **Dropbo
 
 You can even get OpenAI's **ChatGPT** to help process your Text Comments!
 
-> [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/us/app/marker-toolbox/id6446810965)
+> [:icon-desktop-download: Click here to **buy** on the Mac App Store](/buy/)
 
 ![](static/homepage.png)
 
@@ -14,4 +14,4 @@ However, if you have a more complex email of changes, you can get OpenAI's ChatG
 
 You can even import a Clip, Multicam Clip, Compound Clip or Synchronised Clip from Final Cut Pro into Marker Toolbox, apply markers to it, and bring it back to Final Cut Pro!
 
-You can learn more about how it works [here](https://markertoolbox.io/how-to-use/).
+You can learn more about how it works [here](/how-to-use/).
