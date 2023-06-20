@@ -1,160 +1,222 @@
 # How To Use
 
-Once [installed](https://markertoolbox.io/installation/) you can access Marker Toolbox from the Workflow Extension button in Final Cut Pro:
+You can use **Marker Toolbox** as either a standalone application (useful if you're exporting to DaVinci Resolve) or as a Workflow Extension.
 
-![_Screenshot of Marker Toolbox_](static/workflow-extension-button.png)
+![](static/install.png)
+
+---
+
+### Workflow Extension
+
+Once [installed](/installation/) you can access Marker Toolbox from the **Workflow Extension** button in Final Cut Pro:
+
+![](static/workflow-extension-button.png)
 
 ...or via the **Window > Extensions** menubar:
 
-![_Screenshot of Marker Toolbox_](static/workflow-extension-menu.png)
+![](static/workflow-extension-menu.png)
 
 The first time you launch Marker Toolbox it will look like this:
 
-![_Screenshot of Marker Toolbox_](static/fresh-install.png)
+![](static/fresh-install.png)
 
 ---
 
 ### Convert Dropbox Replay JSON to Markers
 
-This feature allows you to easily import Dropbox Replay JSON files as markers and titles in Final Cut Pro.
+This feature allows you to easily import Dropbox Replay `JSON` files as markers and titles in Final Cut Pro.
 
 Drawn annotations in Dropbox Replay also come across to Final Cut Pro:
 
-![_Screenshot of Dropbox Replay_](static/dropbox-replay-annotations.png)
+![](static/dropbox-replay-annotations.png)
 
-You can export a Dropbox Replay JSON file by clicking the **Export Comments** button, then selecting JSON:
+You can export a Dropbox Replay `JSON` file by clicking the **Export Comments** button, then selecting `JSON`:
 
-![_Screenshot of Dropbox Replay_](static/dropbox-replay.png)
+![](static/dropbox-replay.png)
 
-Once exported, simply drag the JSON file into the drop zone, or click the **Select File** button:
+Once exported, simply drag the `JSON` file into the drop zone, or click the **Select File** button:
 
-![_Screenshot of Marker Toolbox_](static/top-section.png)
+![](static/top-section.png)
 
-Assuming the JSON is correct and valid, the draggable icon on the bottom of the interface will now be green:
+Assuming the `JSON` is correct and valid, the draggable icon on the bottom of the interface will now be green:
 
-![_Screenshot of Marker Toolbox_](static/drag.png)
+![](static/drag.png)
 
 You can now drag this green icon into your Final Cut Pro timeline or browser.
 
+You can also alternatively **Save Resolve EDL** or **Save FCPXML**.
+
 If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
 
-![_Screenshot of Marker Toolbox_](static/timeline.png)
+![](static/timeline.png)
 
 You can then use the **Clip > Break Apart Clip Items** menubar item to break the Compound Clip into individual markers:
 
-![_Screenshot of Marker Toolbox_](static/break-apart-clip-items.png)
+![](static/break-apart-clip-items.png)
 
 This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.
 
-![_Screenshot of Marker Toolbox_](static/timeline-break-apart.png)
+![](static/timeline-break-apart.png)
 
 Back in the Workflow Extension if you click the **Settings** button, you can set the Frame Rate and what information is used for the Marker Name:
 
-![_Screenshot of Marker Toolbox_](static/top-settings.png)
+![](static/top-settings.png)
 
 These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:
 
-![_Screenshot of Marker Toolbox_](static/marker-options-ticked.png)
+![](static/marker-options-ticked.png)
 
-These settings should be applied **before** you import a JSON. If you change them, you should import your JSON again for the FCPXML to be updated.
+These settings should be applied **before** you import a `JSON`. If you change them, you should import your `JSON` again for the `FCPXML` to be updated.
+
+---
+
+### Convert Frame.io FIOJSON to Markers
+
+This feature allows you to easily import Frame.io `FIOJSON` files as markers and titles in Final Cut Pro.
+
+Drawn annotations in Frame.io also come across to Final Cut Pro:
+
+![](static/frameio-annotations.png)
+
+You can export a Frame.io `FIOJSON` file by clicking the **Download** button, then selecting **Download for Final Cut Pro X 10.4.0 and later**:
+
+![](static/frameio-download.png)
+
+Once exported, simply drag the `FIOJSON` file into the drop zone, or click the **Select File** button:
+
+![](static/top-section.png)
+
+Assuming the `FIOJSON` is correct and valid, the draggable icon on the bottom of the interface will now be green:
+
+![](static/drag.png)
+
+You can now drag this green icon into your Final Cut Pro timeline or browser.
+
+You can also alternatively **Save Resolve EDL** or **Save FCPXML**.
+
+If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
+
+![](static/timeline.png)
+
+You can then use the **Clip > Break Apart Clip Items** menubar item to break the Compound Clip into individual markers:
+
+![](static/break-apart-clip-items.png)
+
+This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.
+
+![](static/timeline-break-apart.png)
+
+Back in the Workflow Extension if you click the **Settings** button, you can set the Frame Rate and what information is used for the Marker Name:
+
+![](static/top-settings.png)
+
+These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:
+
+![](static/marker-options-ticked.png)
+
+These settings should be applied **before** you import a `FIOJSON`. If you change them, you should import your `FIOJSON` again for the `FCPXML` to be updated.
 
 ---
 
 ### Convert Vimeo CSV to Markers
 
-This feature allows you to easily import Vimeo CSV as markers and titles in Final Cut Pro.
+This feature allows you to easily import Vimeo `CSV` as markers and titles in Final Cut Pro.
 
-You can learn more about exporting CSV files from Vimeo [here](https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-).
+You can learn more about exporting `CSV` files from Vimeo [here](https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-){target="_blank"}.
 
-This functionality has been built into [CommandPost](https://commandpost.io) for a while, however we've improved upon it based on user feedback.
+This functionality has been built into [CommandPost](https://commandpost.io){target="_blank"} for a while, however we've improved upon it based on user feedback.
 
-Once exported, simply drag a CSV file into the drop zone, or click the **Select File** button:
+Once exported, simply drag a `CSV` file into the drop zone, or click the **Select File** button:
 
-![_Screenshot of Marker Toolbox_](static/top-section.png)
+![](static/top-section.png)
 
-Assuming the CSV is correct and valid, the draggable icon on the bottom of the interface will now be green:
+Assuming the `CSV` is correct and valid, the draggable icon on the bottom of the interface will now be green:
 
-![_Screenshot of Marker Toolbox_](static/drag.png)
+![](static/drag.png)
 
 You can now drag this green icon into your Final Cut Pro timeline or browser.
 
+You can also alternatively **Save Resolve EDL** or **Save FCPXML**.
+
 If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
 
-![_Screenshot of Marker Toolbox_](static/timeline.png)
+![](static/timeline.png)
 
 You can then use the **Clip > Break Apart Clip Items** menubar item to break the Compound Clip into individual markers:
 
-![_Screenshot of Marker Toolbox_](static/break-apart-clip-items.png)
+![](static/break-apart-clip-items.png)
 
 This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.
 
-![_Screenshot of Marker Toolbox_](static/timeline-break-apart.png)
+![](static/timeline-break-apart.png)
 
 Back in the Workflow Extension if you click the **Settings** button, you can set the Frame Rate and what information is used for the Marker Name:
 
-![_Screenshot of Marker Toolbox_](static/top-settings.png)
+![](static/top-settings.png)
 
 These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:
 
-![_Screenshot of Marker Toolbox_](static/marker-options-ticked.png)
+![](static/marker-options-ticked.png)
 
-These settings should be applied **before** you import a CSV. If you change them, you should import your CSV again for the FCPXML to be updated.
+These settings should be applied **before** you import a `CSV`. If you change them, you should import your `CSV` again for the `FCPXML` to be updated.
 
 ---
 
 ### Convert Wipster CSV to Markers
 
-This feature allows you to easily import a Wipster CSV as markers and titles in Final Cut Pro.
+This feature allows you to easily import a Wipster `CSV` as markers and titles in Final Cut Pro.
 
-You can export a CSV from Wipster, by clicking the **Download** button on your video, then the **Export CSV** option.
+You can export a `CSV` from Wipster, by clicking the **Download** button on your video, then the **Export CSV** option.
 
 ![_Screenshot of Wipster_](static/wipster.png)
 
-You can learn more about exporting CSV files from Wipster [here](https://intercom.help/wipster-support/en/articles/3350841-can-i-print-out-the-comments-on-my-video-or-image).
+You can learn more about exporting `CSV` files from Wipster [here](https://intercom.help/wipster-support/en/articles/3350841-can-i-print-out-the-comments-on-my-video-or-image){target="_blank"}.
 
-Once exported, simply drag a CSV file into the drop zone, or click the **Select File** button:
+Once exported, simply drag a `CSV` file into the drop zone, or click the **Select File** button:
 
-![_Screenshot of Marker Toolbox_](static/top-section.png)
+![](static/top-section.png)
 
-Assuming the CSV is correct and valid, the draggable icon on the bottom of the interface will now be green:
+Assuming the `CSV` is correct and valid, the draggable icon on the bottom of the interface will now be green:
 
-![_Screenshot of Marker Toolbox_](static/drag.png)
+![](static/drag.png)
 
 You can now drag this green icon into your Final Cut Pro timeline or browser.
 
+You can also alternatively **Save Resolve EDL** or **Save FCPXML**.
+
 If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
 
-![_Screenshot of Marker Toolbox_](static/timeline.png)
+![](static/timeline.png)
 
 You can then use the **Clip > Break Apart Clip Items** menubar item to break the Compound Clip into individual markers:
 
-![_Screenshot of Marker Toolbox_](static/break-apart-clip-items.png)
+![](static/break-apart-clip-items.png)
 
 This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.
 
-![_Screenshot of Marker Toolbox_](static/timeline-break-apart.png)
+![](static/timeline-break-apart.png)
 
 Back in the Workflow Extension if you click the **Settings** button, you can set the Frame Rate and what information is used for the Marker Name:
 
-![_Screenshot of Marker Toolbox_](static/top-settings.png)
+![](static/top-settings.png)
 
 These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:
 
-![_Screenshot of Marker Toolbox_](static/marker-options-ticked.png)
+![](static/marker-options-ticked.png)
 
-These settings should be applied **before** you import a CSV. If you change them, you should import your CSV again for the FCPXML to be updated.
+These settings should be applied **before** you import a `CSV`. If you change them, you should import your `CSV` again for the `FCPXML` to be updated.
 
 ---
 
-### Convert Email Comments to Markers
+### Convert Text Comments to Markers
 
-This feature allows you to easily convert random email comments into Markers.
+This feature allows you to easily convert random text comments into Markers.
 
-This is handy if your client refuses to use Vimeo Review or Frame.io, and sends email comments or text messages instead.
+This is handy if your client refuses to use Vimeo Review, Dropbox Replay or Frame.io, and sends email comments or text messages instead.
 
 If the feedback is well organised, then you can use the **Process Comments Locally** button to easily translate any time values into timecode.
 
-![_Screenshot of Marker Toolbox_](static/process-comments-locally.png)
+![](static/process-comments-locally.png)
 
 This process uses a very simple algorithm that supports time formats like:
 
@@ -169,43 +231,43 @@ Please remove the shot at 10 minutes
 
 However, if you have a more complicated collection of feedback, you can use OpenAI's ChatGPT to process it. For example:
 
-![_Screenshot of Marker Toolbox_](static/email-comments.png)
+![](static/email-comments.png)
 
 To use the ChatGPT functionality you'll need to have your own OpenAI API key.
 
 You can find OpenAI's pricing [here](https://openai.com/pricing).
 
-If you have a ChatGPT account, you can [get your API key here](https://platform.openai.com/account/api-keys).
+If you have a ChatGPT account, you can [get your API key here](https://platform.openai.com/account/api-keys){target="_blank"}.
 
 Pressing the **Get API Key** button in the user interface, will open up the same above link.
 
-Your API key is securely saved in [macOS's Keychain](https://support.apple.com/en-au/guide/keychain-access/kyca1083/mac).
+Your API key is securely saved in [macOS's Keychain](https://support.apple.com/en-au/guide/keychain-access/kyca1083/mac){target="_blank"}.
 
 The first time you enter in an API key and press **return** (or click away from the text box) you'll be presented with:
 
-![_Screenshot of Marker Toolbox_](static/keychain-permission.png)
+![](static/keychain-permission.png)
 
 Depending on your security settings, you then may be prompted to enter your macOS password, so that Marker Toolbox can access the API stored in the Marker Toolbox can access the information stored within the **com.latenitefilms.MarkerToolbox.WorkflowExtension.APIKey** keychain item. Click **Always Allow**.
 
-![_Screenshot of Marker Toolbox_](static/keychain-access.png)
+![](static/keychain-access.png)
 
 You can now use the **Process Comments with ChatGPT** button within Marker Toolbox to send email comments to ChatGPT.
 
 Depending on OpenAI's server load, this process can happen quickly, or take a few minutes.
 
-![_Screenshot of Marker Toolbox_](static/waiting.png)
+![](static/waiting.png)
 
 Once complete, like the **Convert Vimeo CSV to Markers** feature, you can now drag this green icon into your Final Cut Pro timeline or browser.
 
-![_Screenshot of Marker Toolbox_](static/drag.png)
+![](static/drag.png)
 
 You can customise the ChatGPT Model, Frame Rate and Prompt by clicking the **Settings** button.
 
-![_Screenshot of Marker Toolbox_](static/settings.png)
+![](static/settings.png)
 
-The default ChatGPT Model is **gpt-3.5-turbo**. If you have access to **gpt-4** or **gpt-4-32k** you can also select them.
+The default ChatGPT Model is **gpt-3.5-turbo**. If you have access to **gpt-3.5-turbo-16k**, **gpt-4** or **gpt-4-32k** you can also select them.
 
-You can learn more about the various ChatGPT models [here](https://platform.openai.com/docs/models).
+You can learn more about the various ChatGPT models [here](https://platform.openai.com/docs/models){target="_blank"}.
 
 The Frame Rate dropdown allows you to select the frame rate of your destination timeline/project. It's **25fps** by default.
 
@@ -266,3 +328,11 @@ The default prompt is:
 You must include both the **`<FRAMERATE>`** and **`<COMMENT>`** in the prompt.
 
 Please be aware that ChatGPT can be fairly unpredictable, and each time you press the **Process Comments with ChatGPT** button you might slightly different results.
+
+---
+
+### Apply Markers to Existing Final Cut Pro Clip
+
+To use this feature, follow the same steps as above, but instead of dragging the green icon or clicking **Save Resolve EDL** or **Save FCPXML** buttons, drag in a **Clip**, **Multicam Clip**, **Synchronised Clip** or **Compound Clip** into the drop zone at the bottom of Marker Toolbox.
+
+Once done, the **Send back to Final Cut Pro** button will be enabled, and when you click it, Marker Toolbox will send back the clip to the select Final Cut Pro library in a new event, with Markers applied to the clip.
