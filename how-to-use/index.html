@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740437556870">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740558404153">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>How To Use</title>
     <meta name="title" content="How To Use">
-    <meta name="description" content="Once installed you can access Marker Toolbox from the Workflow Extension button in Final Cut Pro:" />
+    <meta name="description" content="You can use Marker Toolbox as either a standalone application (useful if you're exporting to DaVinci Resolve) or as a Workflow Extension." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://markertoolbox.io/how-to-use/" />
@@ -20,23 +20,61 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://markertoolbox.io/how-to-use/">
     <meta property="og:title" content="How To Use">
-    <meta property="og:description" content="Once installed you can access Marker Toolbox from the Workflow Extension button in Final Cut Pro:">
-    <meta property="og:image" content="https://markertoolbox.io/static/workflow-extension-button.png">
+    <meta property="og:description" content="You can use Marker Toolbox as either a standalone application (useful if you're exporting to DaVinci Resolve) or as a Workflow Extension.">
+    <meta property="og:image" content="https://markertoolbox.io/static/thumbnail.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://markertoolbox.io/how-to-use/">
     <meta property="twitter:title" content="How To Use">
-    <meta property="twitter:description" content="Once installed you can access Marker Toolbox from the Workflow Extension button in Final Cut Pro:">
-    <meta property="twitter:image" content="https://markertoolbox.io/static/workflow-extension-button.png">
+    <meta property="twitter:description" content="You can use Marker Toolbox as either a standalone application (useful if you're exporting to DaVinci Resolve) or as a Workflow Extension.">
+    <meta property="twitter:image" content="https://markertoolbox.io/static/thumbnail.jpg">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.0.3.740437556870" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.740558404153" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740437556870" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740558404153" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740437556870" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740558404153" data-turbo-eval="false" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .review {
+            text-align: left;
+            color: #1956AF;
+            border-radius: 10px;
+            background-color: #E1EDFF;
+            border: 1px solid #1956AF;
+            margin-bottom: 20px;
+            padding-top: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+        }
+        html.dark .review {
+            background-color: rgb(39 39 39/var(--tw-bg-opacity));
+            color: rgb(189 189 189/var(--tw-text-opacity));
+        }
+        .review p {
+            font-size: 11px;
+        }
+        .review-rating {
+            margin-bottom: 5px;
+        }
+        .fa-star {
+            font-size: 20px;
+            color: #ccc;
+        }
+        .fa-star.checked {
+            color: orange;
+        }
+        @media (max-width: 959px) {
+            img.rightLogo {
+                display: none !important;
+            }
+        }
+    </style>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -68,13 +106,13 @@
                     <nav class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                             <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://apps.apple.com/us/app/marker-toolbox/id6446810965" target="_blank">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../buy/">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                         <g fill="currentColor">
                                             <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
                                         </g>
                                     </svg>
-                                    <span>Buy on Mac App Store</span>
+                                    <span>Buy</span>
                                 </a>
                             </li>
                             <li class="mr-6">
@@ -101,7 +139,7 @@
                                 <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                         <g fill="currentColor">
-                                            <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                            <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
                                         </g>
                                     </svg>
                                     <span>FCP Cafe</span>
@@ -111,14 +149,14 @@
                                 <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                         <g fill="currentColor">
-                                            <path d="M3.5 8a5.5 5.5 0 1 1 8.596 4.547 9.005 9.005 0 0 1 5.9 8.18.751.751 0 0 1-1.5.045 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.499-.044 9.005 9.005 0 0 1 5.9-8.181A5.496 5.496 0 0 1 3.5 8ZM9 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm8.29 4c-.148 0-.292.01-.434.03a.75.75 0 1 1-.212-1.484 4.53 4.53 0 0 1 3.38 8.097 6.69 6.69 0 0 1 3.956 6.107.75.75 0 0 1-1.5 0 5.193 5.193 0 0 0-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0 0 17.29 8Z"/>
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
                                         </g>
                                     </svg>
                                     <span>Chris on Twitter</span>
                                 </a>
                             </li>
                             <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../latenite-technology/">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                         <g fill="currentColor">
                                             <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
@@ -198,13 +236,13 @@
                             <nav>
                                 <ul class="flex flex-wrap justify-center items-center">
                                     <li class="mr-6">
-                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://apps.apple.com/us/app/marker-toolbox/id6446810965" target="_blank">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../buy/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                                 <g fill="currentColor">
                                                     <path d="M11.25 9.331V.75a.75.75 0 0 1 1.5 0v8.58l1.949-2.11A.75.75 0 1 1 15.8 8.237l-3.25 3.52a.75.75 0 0 1-1.102 0l-3.25-3.52A.75.75 0 1 1 9.3 7.22l1.949 2.111Z"/><path d="M2.5 3.75v11.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25h-5.5a.75.75 0 0 1 0-1.5h5.5c.966 0 1.75.784 1.75 1.75v11.5A1.75 1.75 0 0 1 21.25 17h-6.204c.171 1.375.805 2.652 1.769 3.757A.752.752 0 0 1 16.25 22h-8.5a.75.75 0 0 1-.566-1.243c.965-1.105 1.599-2.382 1.77-3.757H2.75A1.75 1.75 0 0 1 1 15.25V3.75C1 2.784 1.784 2 2.75 2h5.5a.75.75 0 0 1 0 1.5h-5.5a.25.25 0 0 0-.25.25ZM10.463 17c-.126 1.266-.564 2.445-1.223 3.5h5.52c-.66-1.055-1.098-2.234-1.223-3.5Z"/>
                                                 </g>
                                             </svg>
-                                            <span>Buy on Mac App Store</span>
+                                            <span>Buy</span>
                                         </a>
                                     </li>
                                     <li class="mr-6">
@@ -231,7 +269,7 @@
                                         <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://fcp.cafe" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                                 <g fill="currentColor">
-                                                    <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                                    <path d="M14.265 1.627c0 3.545 1.869 5.327 3.479 7.021 1.54 1.62 3.006 3.163 3.006 6.102 0 4.812-3.753 8.25-8.565 8.25-4.813 0-8.935-3.421-8.935-8.25 0-2.039.962-4.011 2.509-4.899.305-.175.672.007.803.334C7.563 12.684 8.797 12.64 9.437 12c.388-.387.47-1.116-.004-2.062-2.405-4.812 1.863-8.279 4.2-8.854.336-.082.615.198.632.543ZM12.185 21.5c4.059 0 7.065-2.84 7.065-6.75 0-2.337-1.093-3.489-2.678-5.158l-.021-.023c-1.44-1.517-3.139-3.351-3.649-6.557a6.148 6.148 0 0 0-1.911 1.76c-.787 1.144-1.147 2.633-.216 4.495.603 1.205.777 2.74-.277 3.794-.657.657-1.762 1.1-2.956.586-.752-.324-1.353-.955-1.838-1.79-.567.706-.954 1.74-.954 2.893 0 3.847 3.288 6.75 7.435 6.75Z"/>
                                                 </g>
                                             </svg>
                                             <span>FCP Cafe</span>
@@ -241,14 +279,14 @@
                                         <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/chrisatlatenite" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                                 <g fill="currentColor">
-                                                    <path d="M3.5 8a5.5 5.5 0 1 1 8.596 4.547 9.005 9.005 0 0 1 5.9 8.18.751.751 0 0 1-1.5.045 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.499-.044 9.005 9.005 0 0 1 5.9-8.181A5.496 5.496 0 0 1 3.5 8ZM9 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm8.29 4c-.148 0-.292.01-.434.03a.75.75 0 1 1-.212-1.484 4.53 4.53 0 0 1 3.38 8.097 6.69 6.69 0 0 1 3.956 6.107.75.75 0 0 1-1.5 0 5.193 5.193 0 0 0-3.696-4.972l-.534-.16v-1.676l.41-.209A3.03 3.03 0 0 0 17.29 8Z"/>
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
                                                 </g>
                                             </svg>
                                             <span>Chris on Twitter</span>
                                         </a>
                                     </li>
                                     <li class="mr-6">
-                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://latenitefilms.com" target="_blank">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../latenite-technology/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                                                 <g fill="currentColor">
                                                     <path d="M12 2.5c-3.81 0-6.5 2.743-6.5 6.119 0 1.536.632 2.572 1.425 3.56.172.215.347.422.527.635l.096.112c.21.25.427.508.63.774.404.531.783 1.128.995 1.834a.75.75 0 0 1-1.436.432c-.138-.46-.397-.89-.753-1.357a18.111 18.111 0 0 0-.582-.714l-.092-.11c-.18-.212-.37-.436-.555-.667C4.87 12.016 4 10.651 4 8.618 4 4.363 7.415 1 12 1s8 3.362 8 7.619c0 2.032-.87 3.397-1.755 4.5-.185.23-.375.454-.555.667l-.092.109c-.21.248-.405.481-.582.714-.356.467-.615.898-.753 1.357a.751.751 0 0 1-1.437-.432c.213-.706.592-1.303.997-1.834.202-.266.419-.524.63-.774l.095-.112c.18-.213.355-.42.527-.634.793-.99 1.425-2.025 1.425-3.561C18.5 5.243 15.81 2.5 12 2.5ZM8.75 18h6.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5Zm.75 3.75a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75Z"/>
@@ -281,22 +319,35 @@
         <span>How To Use</span>
     </h1>
 </doc-anchor-target>
-<p>Once <a href="https://markertoolbox.io/installation/">installed</a> you can access Marker Toolbox from the Workflow Extension button in Final Cut Pro:</p>
+<p>You can use <strong>Marker Toolbox</strong> as either a standalone application (useful if you&#x27;re exporting to DaVinci Resolve) or as a Workflow Extension.</p>
 <p><figure class="content-center">
-    <img src="../static/workflow-extension-button.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/install.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<hr />
+<doc-anchor-target id="workflow-extension">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#workflow-extension">#</doc-anchor-trigger>
+        <span>Workflow Extension</span>
+    </h3>
+</doc-anchor-target>
+<p>Once <a href="../installation/">installed</a> you can access Marker Toolbox from the <strong>Workflow Extension</strong> button in Final Cut Pro:</p>
+<p><figure class="content-center">
+    <img src="../static/workflow-extension-button.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>...or via the <strong>Window &gt; Extensions</strong> menubar:</p>
 <p><figure class="content-center">
-    <img src="../static/workflow-extension-menu.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/workflow-extension-menu.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>The first time you launch Marker Toolbox it will look like this:</p>
 <p><figure class="content-center">
-    <img src="../static/fresh-install.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/fresh-install.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <hr />
@@ -306,63 +357,129 @@
         <span>Convert Dropbox Replay JSON to Markers</span>
     </h3>
 </doc-anchor-target>
-<p>This feature allows you to easily import Dropbox Replay JSON files as markers and titles in Final Cut Pro.</p>
+<p>This feature allows you to easily import Dropbox Replay <code v-pre>JSON</code> files as markers and titles in Final Cut Pro.</p>
 <p>Drawn annotations in Dropbox Replay also come across to Final Cut Pro:</p>
 <p><figure class="content-center">
-    <img src="../static/dropbox-replay-annotations.png" alt="Screenshot of Dropbox Replay" />
-    <figcaption class="caption"><em>Screenshot of Dropbox Replay</em></figcaption>
+    <img src="../static/dropbox-replay-annotations.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>You can export a Dropbox Replay JSON file by clicking the <strong>Export Comments</strong> button, then selecting JSON:</p>
+<p>You can export a Dropbox Replay <code v-pre>JSON</code> file by clicking the <strong>Export Comments</strong> button, then selecting <code v-pre>JSON</code>:</p>
 <p><figure class="content-center">
-    <img src="../static/dropbox-replay.png" alt="Screenshot of Dropbox Replay" />
-    <figcaption class="caption"><em>Screenshot of Dropbox Replay</em></figcaption>
+    <img src="../static/dropbox-replay.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Once exported, simply drag the JSON file into the drop zone, or click the <strong>Select File</strong> button:</p>
+<p>Once exported, simply drag the <code v-pre>JSON</code> file into the drop zone, or click the <strong>Select File</strong> button:</p>
 <p><figure class="content-center">
-    <img src="../static/top-section.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/top-section.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Assuming the JSON is correct and valid, the draggable icon on the bottom of the interface will now be green:</p>
+<p>Assuming the <code v-pre>JSON</code> is correct and valid, the draggable icon on the bottom of the interface will now be green:</p>
 <p><figure class="content-center">
-    <img src="../static/drag.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/drag.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can now drag this green icon into your Final Cut Pro timeline or browser.</p>
+<p>You can also alternatively <strong>Save Resolve EDL</strong> or <strong>Save FCPXML</strong>.</p>
 <p>If you drag the icon to your timeline, a <strong>Compound Clip</strong> with all your markers will be added:</p>
 <p><figure class="content-center">
-    <img src="../static/timeline.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/timeline.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can then use the <strong>Clip &gt; Break Apart Clip Items</strong> menubar item to break the Compound Clip into individual markers:</p>
 <p><figure class="content-center">
-    <img src="../static/break-apart-clip-items.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/break-apart-clip-items.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.</p>
 <p><figure class="content-center">
-    <img src="../static/timeline-break-apart.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/timeline-break-apart.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>Back in the Workflow Extension if you click the <strong>Settings</strong> button, you can set the Frame Rate and what information is used for the Marker Name:</p>
 <p><figure class="content-center">
-    <img src="../static/top-settings.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/top-settings.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:</p>
 <p><figure class="content-center">
-    <img src="../static/marker-options-ticked.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/marker-options-ticked.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>These settings should be applied <strong>before</strong> you import a JSON. If you change them, you should import your JSON again for the FCPXML to be updated.</p>
+<p>These settings should be applied <strong>before</strong> you import a <code v-pre>JSON</code>. If you change them, you should import your <code v-pre>JSON</code> again for the <code v-pre>FCPXML</code> to be updated.</p>
+<hr />
+<doc-anchor-target id="convert-frameio-fiojson-to-markers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-frameio-fiojson-to-markers">#</doc-anchor-trigger>
+        <span>Convert Frame.io FIOJSON to Markers</span>
+    </h3>
+</doc-anchor-target>
+<p>This feature allows you to easily import Frame.io <code v-pre>FIOJSON</code> files as markers and titles in Final Cut Pro.</p>
+<p>Drawn annotations in Frame.io also come across to Final Cut Pro:</p>
+<p><figure class="content-center">
+    <img src="../static/frameio-annotations.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can export a Frame.io <code v-pre>FIOJSON</code> file by clicking the <strong>Download</strong> button, then selecting <strong>Download for Final Cut Pro X 10.4.0 and later</strong>:</p>
+<p><figure class="content-center">
+    <img src="../static/frameio-download.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Once exported, simply drag the <code v-pre>FIOJSON</code> file into the drop zone, or click the <strong>Select File</strong> button:</p>
+<p><figure class="content-center">
+    <img src="../static/top-section.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Assuming the <code v-pre>FIOJSON</code> is correct and valid, the draggable icon on the bottom of the interface will now be green:</p>
+<p><figure class="content-center">
+    <img src="../static/drag.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can now drag this green icon into your Final Cut Pro timeline or browser.</p>
+<p>You can also alternatively <strong>Save Resolve EDL</strong> or <strong>Save FCPXML</strong>.</p>
+<p>If you drag the icon to your timeline, a <strong>Compound Clip</strong> with all your markers will be added:</p>
+<p><figure class="content-center">
+    <img src="../static/timeline.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can then use the <strong>Clip &gt; Break Apart Clip Items</strong> menubar item to break the Compound Clip into individual markers:</p>
+<p><figure class="content-center">
+    <img src="../static/break-apart-clip-items.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.</p>
+<p><figure class="content-center">
+    <img src="../static/timeline-break-apart.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Back in the Workflow Extension if you click the <strong>Settings</strong> button, you can set the Frame Rate and what information is used for the Marker Name:</p>
+<p><figure class="content-center">
+    <img src="../static/top-settings.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:</p>
+<p><figure class="content-center">
+    <img src="../static/marker-options-ticked.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>These settings should be applied <strong>before</strong> you import a <code v-pre>FIOJSON</code>. If you change them, you should import your <code v-pre>FIOJSON</code> again for the <code v-pre>FCPXML</code> to be updated.</p>
 <hr />
 <doc-anchor-target id="convert-vimeo-csv-to-markers">
     <h3>
@@ -370,53 +487,54 @@
         <span>Convert Vimeo CSV to Markers</span>
     </h3>
 </doc-anchor-target>
-<p>This feature allows you to easily import Vimeo CSV as markers and titles in Final Cut Pro.</p>
-<p>You can learn more about exporting CSV files from Vimeo <a href="https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-">here</a>.</p>
-<p>This functionality has been built into <a href="https://commandpost.io">CommandPost</a> for a while, however we&#x27;ve improved upon it based on user feedback.</p>
-<p>Once exported, simply drag a CSV file into the drop zone, or click the <strong>Select File</strong> button:</p>
+<p>This feature allows you to easily import Vimeo <code v-pre>CSV</code> as markers and titles in Final Cut Pro.</p>
+<p>You can learn more about exporting <code v-pre>CSV</code> files from Vimeo <a href="https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-" target="_blank">here</a>.</p>
+<p>This functionality has been built into <a href="https://commandpost.io" target="_blank">CommandPost</a> for a while, however we&#x27;ve improved upon it based on user feedback.</p>
+<p>Once exported, simply drag a <code v-pre>CSV</code> file into the drop zone, or click the <strong>Select File</strong> button:</p>
 <p><figure class="content-center">
-    <img src="../static/top-section.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/top-section.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Assuming the CSV is correct and valid, the draggable icon on the bottom of the interface will now be green:</p>
+<p>Assuming the <code v-pre>CSV</code> is correct and valid, the draggable icon on the bottom of the interface will now be green:</p>
 <p><figure class="content-center">
-    <img src="../static/drag.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/drag.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can now drag this green icon into your Final Cut Pro timeline or browser.</p>
+<p>You can also alternatively <strong>Save Resolve EDL</strong> or <strong>Save FCPXML</strong>.</p>
 <p>If you drag the icon to your timeline, a <strong>Compound Clip</strong> with all your markers will be added:</p>
 <p><figure class="content-center">
-    <img src="../static/timeline.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/timeline.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can then use the <strong>Clip &gt; Break Apart Clip Items</strong> menubar item to break the Compound Clip into individual markers:</p>
 <p><figure class="content-center">
-    <img src="../static/break-apart-clip-items.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/break-apart-clip-items.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.</p>
 <p><figure class="content-center">
-    <img src="../static/timeline-break-apart.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/timeline-break-apart.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>Back in the Workflow Extension if you click the <strong>Settings</strong> button, you can set the Frame Rate and what information is used for the Marker Name:</p>
 <p><figure class="content-center">
-    <img src="../static/top-settings.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/top-settings.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:</p>
 <p><figure class="content-center">
-    <img src="../static/marker-options-ticked.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/marker-options-ticked.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>These settings should be applied <strong>before</strong> you import a CSV. If you change them, you should import your CSV again for the FCPXML to be updated.</p>
+<p>These settings should be applied <strong>before</strong> you import a <code v-pre>CSV</code>. If you change them, you should import your <code v-pre>CSV</code> again for the <code v-pre>FCPXML</code> to be updated.</p>
 <hr />
 <doc-anchor-target id="convert-wipster-csv-to-markers">
     <h3>
@@ -424,71 +542,72 @@
         <span>Convert Wipster CSV to Markers</span>
     </h3>
 </doc-anchor-target>
-<p>This feature allows you to easily import a Wipster CSV as markers and titles in Final Cut Pro.</p>
-<p>You can export a CSV from Wipster, by clicking the <strong>Download</strong> button on your video, then the <strong>Export CSV</strong> option.</p>
+<p>This feature allows you to easily import a Wipster <code v-pre>CSV</code> as markers and titles in Final Cut Pro.</p>
+<p>You can export a <code v-pre>CSV</code> from Wipster, by clicking the <strong>Download</strong> button on your video, then the <strong>Export CSV</strong> option.</p>
 <p><figure class="content-center">
     <img src="../static/wipster.png" alt="Screenshot of Wipster" />
     <figcaption class="caption"><em>Screenshot of Wipster</em></figcaption>
 </figure>
 </p>
-<p>You can learn more about exporting CSV files from Wipster <a href="https://intercom.help/wipster-support/en/articles/3350841-can-i-print-out-the-comments-on-my-video-or-image">here</a>.</p>
-<p>Once exported, simply drag a CSV file into the drop zone, or click the <strong>Select File</strong> button:</p>
+<p>You can learn more about exporting <code v-pre>CSV</code> files from Wipster <a href="https://intercom.help/wipster-support/en/articles/3350841-can-i-print-out-the-comments-on-my-video-or-image" target="_blank">here</a>.</p>
+<p>Once exported, simply drag a <code v-pre>CSV</code> file into the drop zone, or click the <strong>Select File</strong> button:</p>
 <p><figure class="content-center">
-    <img src="../static/top-section.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/top-section.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>Assuming the CSV is correct and valid, the draggable icon on the bottom of the interface will now be green:</p>
+<p>Assuming the <code v-pre>CSV</code> is correct and valid, the draggable icon on the bottom of the interface will now be green:</p>
 <p><figure class="content-center">
-    <img src="../static/drag.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/drag.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can now drag this green icon into your Final Cut Pro timeline or browser.</p>
+<p>You can also alternatively <strong>Save Resolve EDL</strong> or <strong>Save FCPXML</strong>.</p>
 <p>If you drag the icon to your timeline, a <strong>Compound Clip</strong> with all your markers will be added:</p>
 <p><figure class="content-center">
-    <img src="../static/timeline.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/timeline.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can then use the <strong>Clip &gt; Break Apart Clip Items</strong> menubar item to break the Compound Clip into individual markers:</p>
 <p><figure class="content-center">
-    <img src="../static/break-apart-clip-items.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/break-apart-clip-items.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.</p>
 <p><figure class="content-center">
-    <img src="../static/timeline-break-apart.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/timeline-break-apart.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>Back in the Workflow Extension if you click the <strong>Settings</strong> button, you can set the Frame Rate and what information is used for the Marker Name:</p>
 <p><figure class="content-center">
-    <img src="../static/top-settings.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/top-settings.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:</p>
 <p><figure class="content-center">
-    <img src="../static/marker-options-ticked.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/marker-options-ticked.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>These settings should be applied <strong>before</strong> you import a CSV. If you change them, you should import your CSV again for the FCPXML to be updated.</p>
+<p>These settings should be applied <strong>before</strong> you import a <code v-pre>CSV</code>. If you change them, you should import your <code v-pre>CSV</code> again for the <code v-pre>FCPXML</code> to be updated.</p>
 <hr />
-<doc-anchor-target id="convert-email-comments-to-markers">
+<doc-anchor-target id="convert-text-comments-to-markers">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-email-comments-to-markers">#</doc-anchor-trigger>
-        <span>Convert Email Comments to Markers</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-text-comments-to-markers">#</doc-anchor-trigger>
+        <span>Convert Text Comments to Markers</span>
     </h3>
 </doc-anchor-target>
-<p>This feature allows you to easily convert random email comments into Markers.</p>
-<p>This is handy if your client refuses to use Vimeo Review or Frame.io, and sends email comments or text messages instead.</p>
+<p>This feature allows you to easily convert random text comments into Markers.</p>
+<p>This is handy if your client refuses to use Vimeo Review, Dropbox Replay or Frame.io, and sends email comments or text messages instead.</p>
 <p>If the feedback is well organised, then you can use the <strong>Process Comments Locally</strong> button to easily translate any time values into timecode.</p>
 <p><figure class="content-center">
-    <img src="../static/process-comments-locally.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/process-comments-locally.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>This process uses a very simple algorithm that supports time formats like:</p>
@@ -502,48 +621,48 @@ Please remove the shot at 10 minutes</code></pre>
 </doc-codeblock></div>
 <p>However, if you have a more complicated collection of feedback, you can use OpenAI&#x27;s ChatGPT to process it. For example:</p>
 <p><figure class="content-center">
-    <img src="../static/email-comments.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/email-comments.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>To use the ChatGPT functionality you&#x27;ll need to have your own OpenAI API key.</p>
 <p>You can find OpenAI&#x27;s pricing <a href="https://openai.com/pricing">here</a>.</p>
-<p>If you have a ChatGPT account, you can <a href="https://platform.openai.com/account/api-keys">get your API key here</a>.</p>
+<p>If you have a ChatGPT account, you can <a href="https://platform.openai.com/account/api-keys" target="_blank">get your API key here</a>.</p>
 <p>Pressing the <strong>Get API Key</strong> button in the user interface, will open up the same above link.</p>
-<p>Your API key is securely saved in <a href="https://support.apple.com/en-au/guide/keychain-access/kyca1083/mac">macOS&#x27;s Keychain</a>.</p>
+<p>Your API key is securely saved in <a href="https://support.apple.com/en-au/guide/keychain-access/kyca1083/mac" target="_blank">macOS&#x27;s Keychain</a>.</p>
 <p>The first time you enter in an API key and press <strong>return</strong> (or click away from the text box) you&#x27;ll be presented with:</p>
 <p><figure class="content-center">
-    <img src="../static/keychain-permission.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/keychain-permission.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>Depending on your security settings, you then may be prompted to enter your macOS password, so that Marker Toolbox can access the API stored in the Marker Toolbox can access the information stored within the <strong>com.latenitefilms.MarkerToolbox.WorkflowExtension.APIKey</strong> keychain item. Click <strong>Always Allow</strong>.</p>
 <p><figure class="content-center">
-    <img src="../static/keychain-access.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/keychain-access.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can now use the <strong>Process Comments with ChatGPT</strong> button within Marker Toolbox to send email comments to ChatGPT.</p>
 <p>Depending on OpenAI&#x27;s server load, this process can happen quickly, or take a few minutes.</p>
 <p><figure class="content-center">
-    <img src="../static/waiting.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/waiting.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>Once complete, like the <strong>Convert Vimeo CSV to Markers</strong> feature, you can now drag this green icon into your Final Cut Pro timeline or browser.</p>
 <p><figure class="content-center">
-    <img src="../static/drag.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/drag.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>You can customise the ChatGPT Model, Frame Rate and Prompt by clicking the <strong>Settings</strong> button.</p>
 <p><figure class="content-center">
-    <img src="../static/settings.png" alt="Screenshot of Marker Toolbox" />
-    <figcaption class="caption"><em>Screenshot of Marker Toolbox</em></figcaption>
+    <img src="../static/settings.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>The default ChatGPT Model is <strong>gpt-3.5-turbo</strong>. If you have access to <strong>gpt-4</strong> or <strong>gpt-4-32k</strong> you can also select them.</p>
-<p>You can learn more about the various ChatGPT models <a href="https://platform.openai.com/docs/models">here</a>.</p>
+<p>The default ChatGPT Model is <strong>gpt-3.5-turbo</strong>. If you have access to <strong>gpt-3.5-turbo-16k</strong>, <strong>gpt-4</strong> or <strong>gpt-4-32k</strong> you can also select them.</p>
+<p>You can learn more about the various ChatGPT models <a href="https://platform.openai.com/docs/models" target="_blank">here</a>.</p>
 <p>The Frame Rate dropdown allows you to select the frame rate of your destination timeline/project. It&#x27;s <strong>25fps</strong> by default.</p>
 <p>Finally, you can customise the ChatGPT prompt as required.</p>
 <p>The default prompt is:</p>
@@ -600,6 +719,15 @@ Please process the below notes:
 </blockquote>
 <p>You must include both the <strong><code v-pre>&lt;FRAMERATE&gt;</code></strong> and <strong><code v-pre>&lt;COMMENT&gt;</code></strong> in the prompt.</p>
 <p>Please be aware that ChatGPT can be fairly unpredictable, and each time you press the <strong>Process Comments with ChatGPT</strong> button you might slightly different results.</p>
+<hr />
+<doc-anchor-target id="apply-markers-to-existing-final-cut-pro-clip">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#apply-markers-to-existing-final-cut-pro-clip">#</doc-anchor-trigger>
+        <span>Apply Markers to Existing Final Cut Pro Clip</span>
+    </h3>
+</doc-anchor-target>
+<p>To use this feature, follow the same steps as above, but instead of dragging the green icon or clicking <strong>Save Resolve EDL</strong> or <strong>Save FCPXML</strong> buttons, drag in a <strong>Clip</strong>, <strong>Multicam Clip</strong>, <strong>Synchronised Clip</strong> or <strong>Compound Clip</strong> into the drop zone at the bottom of Marker Toolbox.</p>
+<p>Once done, the <strong>Send back to Final Cut Pro</strong> button will be enabled, and when you click it, Marker Toolbox will send back the clip to the select Final Cut Pro library in a new event, with Markers applied to the clip.</p>
 
                                 
                                 <!-- Required only on API pages -->
