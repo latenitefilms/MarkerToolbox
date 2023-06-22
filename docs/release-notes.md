@@ -1,9 +1,9 @@
 # Release Notes
 
-### v1.2.0 (10)
+### v1.2.0 (11)
 
 **🎉 Released:**
-- 20th June 2023
+- 22nd June 2023
 
 **🥳 New Features:**
 - The main Marker Toolbox application now shows the full user interface, so that you can use it as a standalone application - instead of just as a Final Cut Pro Workflow Extension.
