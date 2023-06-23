@@ -1,6 +1,6 @@
 # Release Notes
 
-### v1.3.0 (12)
+### v1.3.0 (13)
 
 **🎉 Released:**
 - 24th June 2023
