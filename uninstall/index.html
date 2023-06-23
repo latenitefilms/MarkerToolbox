@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740851439942">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.740851738910">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.0.3">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Uninstall</title>
     <meta name="title" content="Uninstall">
-    <meta name="description" content="To uninstall Marker Toolbox, simply drag the application to the trash/bin." />
+    <meta name="description" content="To uninstall Marker Toolbox, simply drag the application to the Trash/Bin." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://markertoolbox.io/uninstall/" />
@@ -20,23 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://markertoolbox.io/uninstall/">
     <meta property="og:title" content="Uninstall">
-    <meta property="og:description" content="To uninstall Marker Toolbox, simply drag the application to the trash/bin.">
+    <meta property="og:description" content="To uninstall Marker Toolbox, simply drag the application to the Trash/Bin.">
     <meta property="og:image" content="https://markertoolbox.io/static/thumbnail.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://markertoolbox.io/uninstall/">
     <meta property="twitter:title" content="Uninstall">
-    <meta property="twitter:description" content="To uninstall Marker Toolbox, simply drag the application to the trash/bin.">
+    <meta property="twitter:description" content="To uninstall Marker Toolbox, simply drag the application to the Trash/Bin.">
     <meta property="twitter:image" content="https://markertoolbox.io/static/thumbnail.jpg">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.0.3.740851439942" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.740851738910" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740851439942" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.740851738910" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740851439942" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.740851738910" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -319,12 +319,17 @@
         <span>Uninstall</span>
     </h1>
 </doc-anchor-target>
-<p>To uninstall <strong>Marker Toolbox</strong>, simply drag the application to the trash/bin.</p>
+<p>To uninstall <strong>Marker Toolbox</strong>, simply drag the application to the <strong>Trash/Bin</strong>.</p>
 <p>To remove <strong>Marker Toolbox</strong> completely, log files and debugging <code v-pre>FCPXML</code>s can be found in these folders:</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">~/Library/Containers/com.latenitefilms.MarkerToolbox.WorkflowExtension/</code></pre>
-</doc-codeblock></div>
-<p>You can use <strong>Keychain Access</strong> to remove the <code v-pre>com.latenitefilms.MarkerToolbox.WorkflowExtension.APIKey</code> Keychain Entry.</p>
+<ul>
+<li><code v-pre>~/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.MarkerToolbox/</code></li>
+<li><code v-pre>~/Library/Containers/com.latenitefilms.MarkerToolbox.WorkflowExtension/</code> <em>(prior to v1.3.0)</em></li>
+</ul>
+<p>You can use <strong>Keychain Access</strong> to remove these Keychain items:</p>
+<ul>
+<li><code v-pre>com.latenitefilms.MarkerToolbox.OpenAIAPIKey</code></li>
+<li><code v-pre>com.latenitefilms.MarkerToolbox.WorkflowExtension.APIKey</code> <em>(prior to v1.3.0)</em></li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
