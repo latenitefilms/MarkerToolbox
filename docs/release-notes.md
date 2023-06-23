@@ -1,5 +1,21 @@
 # Release Notes
 
+### v1.3.0 (12)
+
+**🎉 Released:**
+- 24th June 2023
+
+**🥳 New Features:**
+- Added the ability to export Avid Media Composer Marker Text files. Thanks for suggesting Scott Simmons!
+- Added support for importing the Timecode+ TSV format. Thanks for suggesting pulpjedi!
+
+**🔨 Improvements:**
+- Various improvements to the user interface. Marker Toolbox now looks a lot nicer!
+- We moved the OpenAI API key into the Settings panel, and added a "Validate" button so that you can check that the API key is valid.
+- All settings are now saved between the main application and the Final Cut Pro Workflow Extension, meaning that if you change a setting in the Workflow Extension, it will also change in the main application and vice versa.
+
+---
+
 ### v1.2.0 (11)
 
 **🎉 Released:**
