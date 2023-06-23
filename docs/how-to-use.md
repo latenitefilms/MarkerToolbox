@@ -1,6 +1,6 @@
 # How To Use
 
-You can use **Marker Toolbox** as either a standalone application (useful if you're exporting to DaVinci Resolve) or as a Workflow Extension.
+You can use **Marker Toolbox** as either a standalone application (useful if you're exporting to DaVinci Resolve or Avid Media Composer) or as a **Workflow Extension** in Apple's Final Cut Pro.
 
 ![](static/install.png)
 
@@ -44,7 +44,13 @@ Assuming the `JSON` is correct and valid, the draggable icon on the bottom of th
 
 You can now drag this green icon into your Final Cut Pro timeline or browser.
 
-You can also alternatively **Save Resolve EDL** or **Save FCPXML**.
+Alternatively, you can also click the **Save File** button, and export a:
+
+- Final Cut Pro `FCPXML`
+- Resolve `EDL`
+- Avid Media Composer Marker Text.
+
+![](static/save-file.png)
 
 If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
 
@@ -92,7 +98,13 @@ Assuming the `FIOJSON` is correct and valid, the draggable icon on the bottom of
 
 You can now drag this green icon into your Final Cut Pro timeline or browser.
 
-You can also alternatively **Save Resolve EDL** or **Save FCPXML**.
+Alternatively, you can also click the **Save File** button, and export a:
+
+- Final Cut Pro `FCPXML`
+- Resolve `EDL`
+- Avid Media Composer Marker Text.
+
+![](static/save-file.png)
 
 If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
 
@@ -136,7 +148,13 @@ Assuming the `CSV` is correct and valid, the draggable icon on the bottom of the
 
 You can now drag this green icon into your Final Cut Pro timeline or browser.
 
-You can also alternatively **Save Resolve EDL** or **Save FCPXML**.
+Alternatively, you can also click the **Save File** button, and export a:
+
+- Final Cut Pro `FCPXML`
+- Resolve `EDL`
+- Avid Media Composer Marker Text.
+
+![](static/save-file.png)
 
 If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
 
@@ -182,7 +200,13 @@ Assuming the `CSV` is correct and valid, the draggable icon on the bottom of the
 
 You can now drag this green icon into your Final Cut Pro timeline or browser.
 
-You can also alternatively **Save Resolve EDL** or **Save FCPXML**.
+Alternatively, you can also click the **Save File** button, and export a:
+
+- Final Cut Pro `FCPXML`
+- Resolve `EDL`
+- Avid Media Composer Marker Text.
+
+![](static/save-file.png)
 
 If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
 
@@ -205,6 +229,52 @@ These settings allow you to add the Author, Replies and Date Added to the Marker
 ![](static/marker-options-ticked.png)
 
 These settings should be applied **before** you import a `CSV`. If you change them, you should import your `CSV` again for the `FCPXML` to be updated.
+
+---
+
+### Convert Timecode+ TSV to Markers
+
+This feature allows you to easily import a [Timecode+](https://apps.apple.com/au/app/timecode-cameraman/id590534084){target="_blank"} `TSV` file as markers and titles in Final Cut Pro.
+
+Simply drag a `TSV` file into the drop zone, or click the **Select File** button:
+
+![](static/top-section.png)
+
+Assuming the `TSV` is correct and valid, the draggable icon on the bottom of the interface will now be green:
+
+![](static/drag.png)
+
+You can now drag this green icon into your Final Cut Pro timeline or browser.
+
+Alternatively, you can also click the **Save File** button, and export a:
+
+- Final Cut Pro `FCPXML`
+- Resolve `EDL`
+- Avid Media Composer Marker Text.
+
+![](static/save-file.png)
+
+If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
+
+![](static/timeline.png)
+
+You can then use the **Clip > Break Apart Clip Items** menubar item to break the Compound Clip into individual markers:
+
+![](static/break-apart-clip-items.png)
+
+This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.
+
+![](static/timeline-break-apart.png)
+
+Back in the Workflow Extension if you click the **Settings** button, you can set the Frame Rate and what information is used for the Marker Name:
+
+![](static/top-settings.png)
+
+These settings allow you to add the Author, Replies and Date Added to the Marker name within Final Cut Pro, and the Timeline Index:
+
+![](static/marker-options-ticked.png)
+
+These settings should be applied **before** you import a `TSV`. If you change them, you should import your `TSV` again for the `FCPXML` to be updated.
 
 ---
 
@@ -233,37 +303,53 @@ However, if you have a more complicated collection of feedback, you can use Open
 
 ![](static/email-comments.png)
 
-To use the ChatGPT functionality you'll need to have your own OpenAI API key.
+To use the ChatGPT functionality you'll need to supply your own [OpenAI API key](https://platform.openai.com/account/api-keys){target="_blank"}..
 
-You can find OpenAI's pricing [here](https://openai.com/pricing).
+You can set up a OpenAI account for **free**, and you'll get a limited number of tokens. You can find OpenAI's pricing [here](https://openai.com/pricing).
 
 If you have a ChatGPT account, you can [get your API key here](https://platform.openai.com/account/api-keys){target="_blank"}.
+
+You can enter your OpenAI API Key in the Settings panel:
+
+![](static/enter-api-key.png)
 
 Pressing the **Get API Key** button in the user interface, will open up the same above link.
 
 Your API key is securely saved in [macOS's Keychain](https://support.apple.com/en-au/guide/keychain-access/kyca1083/mac){target="_blank"}.
 
-The first time you enter in an API key and press **return** (or click away from the text box) you'll be presented with:
+If you copy the API key from the OpenAI website, you can use the **Paste API Key** to paste it.
 
-![](static/keychain-permission.png)
+If the API key is valid, you'll be pressed with this:
 
-Depending on your security settings, you then may be prompted to enter your macOS password, so that Marker Toolbox can access the API stored in the Marker Toolbox can access the information stored within the **com.latenitefilms.MarkerToolbox.WorkflowExtension.APIKey** keychain item. Click **Always Allow**.
+![](static/valid-api-key.png)
+
+Depending on your security settings, you then may be prompted to enter your macOS password, so that Marker Toolbox can access the API stored in the Marker Toolbox can access the information stored within the **com.latenitefilms.MarkerToolbox.OpenAIAPIKey** keychain item. Click **Always Allow**.
 
 ![](static/keychain-access.png)
 
-You can now use the **Process Comments with ChatGPT** button within Marker Toolbox to send email comments to ChatGPT.
+You can now use the **Process Comments with ChatGPT** button within Marker Toolbox to send text comments to ChatGPT.
 
 Depending on OpenAI's server load, this process can happen quickly, or take a few minutes.
 
 ![](static/waiting.png)
 
-Once complete, like the **Convert Vimeo CSV to Markers** feature, you can now drag this green icon into your Final Cut Pro timeline or browser.
+You can check the OpenAI Server Status [here](https://status.openai.com){target="_blank"}.
+
+Once complete, you can now drag the green icon into your Final Cut Pro timeline or browser.
 
 ![](static/drag.png)
 
-You can customise the ChatGPT Model, Frame Rate and Prompt by clicking the **Settings** button.
+Alternatively, you can also click the **Save File** button, and export a:
 
-![](static/settings.png)
+- Final Cut Pro `FCPXML`
+- Resolve `EDL`
+- Avid Media Composer Marker Text.
+
+![](static/save-file.png)
+
+You can also customise the ChatGPT Model, Frame Rate and Prompt by clicking the **Settings** button:
+
+![](static/enter-api-key.png)
 
 The default ChatGPT Model is **gpt-3.5-turbo**. If you have access to **gpt-3.5-turbo-16k**, **gpt-4** or **gpt-4-32k** you can also select them.
 
@@ -333,6 +419,6 @@ Please be aware that ChatGPT can be fairly unpredictable, and each time you pres
 
 ### Apply Markers to Existing Final Cut Pro Clip
 
-To use this feature, follow the same steps as above, but instead of dragging the green icon or clicking **Save Resolve EDL** or **Save FCPXML** buttons, drag in a **Clip**, **Multicam Clip**, **Synchronised Clip** or **Compound Clip** into the drop zone at the bottom of Marker Toolbox.
+To use this feature, follow the same steps as above, but instead of dragging the green icon or clicking the **Save File** button, drag in a **Clip**, **Multicam Clip**, **Synchronised Clip** or **Compound Clip** into the drop zone at the bottom of Marker Toolbox.
 
 Once done, the **Send back to Final Cut Pro** button will be enabled, and when you click it, Marker Toolbox will send back the clip to the select Final Cut Pro library in a new event, with Markers applied to the clip.
