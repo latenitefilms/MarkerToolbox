@@ -1,9 +1,9 @@
 # Release Notes
 
-### v1.3.0 (13)
+### v1.3.0 (14)
 
 **🎉 Released:**
-- 24th June 2023
+- **CURRENTLY IN MAC APP STORE REVIEW**
 
 **🥳 New Features:**
 - Added the ability to export Avid Media Composer Marker Text files. Thanks for suggesting Scott Simmons!
