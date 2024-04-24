@@ -1,5 +1,15 @@
 # Release Notes
 
+### v1.3.1 (15)
+
+**🎉 Released:**
+- 24th April 2024
+
+**🐞 Bug Fix:**
+- Fixed support for the latest Vimeo CSV format. Thanks for reporting Dave & YevantZ!
+
+---
+
 ### v1.3.0 (14)
 
 **🎉 Released:**
