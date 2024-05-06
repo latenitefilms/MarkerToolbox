@@ -1,5 +1,15 @@
 # Release Notes
 
+### v1.3.2 (17)
+
+**🎉 Released:**
+- 6th May 2024
+
+**🐞 Bug Fix:**
+- Fixed support for the latest Frame.io V4 FIOJSON format. Thanks for reporting D.L. Watson!
+
+---
+
 ### v1.3.1 (15)
 
 **🎉 Released:**

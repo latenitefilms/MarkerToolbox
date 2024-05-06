@@ -1,6 +1,6 @@
 # Marker Toolbox
 
-Marker Toolbox allows you to import a **Vimeo** `CSV`, **Wipster** `CSV`, **Dropbox Replay** `JSON`, **Frame.io** `FIOJSON`, **Timecode+** `TSV` & **Text Comments** into Apple's [Final Cut Pro](https://www.apple.com/final-cut-pro/), Blackmagic's [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve){target="_blank"} and [Avid Media Composer](https://www.avid.com/media-composer){target="_blank"}.
+Marker Toolbox allows you to import a **Vimeo** `CSV`, **Wipster** `CSV`, **Dropbox Replay** `JSON`, **Frame.io** `FIOJSON` (including from the [V4 Beta](https://frame.io/v4)), **Timecode+** `TSV` & **Text Comments** into Apple's [Final Cut Pro](https://www.apple.com/final-cut-pro/), Blackmagic's [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve){target="_blank"} and [Avid Media Composer](https://www.avid.com/media-composer){target="_blank"}.
 
 You can even get OpenAI's **ChatGPT** to help interpret your Text Comments - which is perfect for handling emails from clients!
 
