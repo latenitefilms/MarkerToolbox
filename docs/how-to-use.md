@@ -132,11 +132,17 @@ These settings should be applied **before** you import a `FIOJSON`. If you chang
 
 ### Convert Vimeo CSV to Markers
 
+Vimeo uses the following CSV header:
+
+```
+"Video Version","#","Timecode","Name","Note","Reply","Date Added","Resolved"
+```
+
 This feature allows you to easily import Vimeo `CSV` as markers and titles in Final Cut Pro.
 
-You can learn more about exporting `CSV` files from Vimeo [here](https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-){target="_blank"}.
+You can learn more about exporting `CSV` files from Vimeo [here](https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-).
 
-This functionality has been built into [CommandPost](https://commandpost.io){target="_blank"} for a while, however we've improved upon it based on user feedback.
+This functionality has been built into [CommandPost](https://commandpost.io) for a while, however we've improved upon it based on user feedback.
 
 Once exported, simply drag a `CSV` file into the drop zone, or click the **Select File** button:
 
@@ -182,13 +188,19 @@ These settings should be applied **before** you import a `CSV`. If you change th
 
 ### Convert Wipster CSV to Markers
 
+Wipster uses the following CSV header:
+
+```
+Title,Version,Timecode,Thread Id,Comment Type,Reply,Created By,Creation Date & Time,Comment,Task Completed
+```
+
 This feature allows you to easily import a Wipster `CSV` as markers and titles in Final Cut Pro.
 
 You can export a `CSV` from Wipster, by clicking the **Download** button on your video, then the **Export CSV** option.
 
 ![_Screenshot of Wipster_](static/wipster.png)
 
-You can learn more about exporting `CSV` files from Wipster [here](https://intercom.help/wipster-support/en/articles/3350841-can-i-print-out-the-comments-on-my-video-or-image){target="_blank"}.
+You can learn more about exporting `CSV` files from Wipster [here](https://intercom.help/wipster-support/en/articles/3350841-can-i-print-out-the-comments-on-my-video-or-image).
 
 Once exported, simply drag a `CSV` file into the drop zone, or click the **Select File** button:
 
@@ -232,9 +244,68 @@ These settings should be applied **before** you import a `CSV`. If you change th
 
 ---
 
+### Convert Adobe Premiere CSV to Markers
+
+Adobe Premiere uses the following CSV header:
+
+```
+Start Time,End Time,Text,Layer ID
+```
+
+This feature allows you to easily import a Adobe Premiere `CSV` as markers and titles in Final Cut Pro.
+
+You can learn more about exporting `CSV` files from Adobe Premiere [here](https://helpx.adobe.com/au/premiere-pro/using/export-text-captions.html).
+
+Once exported, simply drag a `CSV` file into the drop zone, or click the **Select File** button:
+
+![](static/top-section.png)
+
+Assuming the `CSV` is correct and valid, the draggable icon on the bottom of the interface will now be green:
+
+![](static/drag.png)
+
+You can now drag this green icon into your Final Cut Pro timeline or browser.
+
+Alternatively, you can also click the **Save File** button, and export a:
+
+- Final Cut Pro `FCPXML`
+- Resolve `EDL`
+- Avid Media Composer Marker Text.
+
+![](static/save-file.png)
+
+If you drag the icon to your timeline, a **Compound Clip** with all your markers will be added:
+
+![](static/timeline.png)
+
+You can then use the **Clip > Break Apart Clip Items** menubar item to break the Compound Clip into individual markers:
+
+![](static/break-apart-clip-items.png)
+
+This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.
+
+![](static/timeline-break-apart.png)
+
+Back in the Workflow Extension if you click the **Settings** button, you can set the Frame Rate and what information is used for the Marker Name:
+
+![](static/top-settings.png)
+
+These settings should be applied **before** you import a `CSV`. If you change them, you should import your `CSV` again for the `FCPXML` to be updated.
+
+---
+
 ### Convert Timecode+ TSV to Markers
 
-This feature allows you to easily import a [Timecode+](https://apps.apple.com/au/app/timecode-cameraman/id590534084){target="_blank"} `TSV` file as markers and titles in Final Cut Pro.
+TSV files have the following format:
+
+```
+NAME	Description	Apr 14 2023 02:48
+
+Time	Note
+00:01:06:00	Your note goes here
+```
+
+This feature allows you to easily import a [Timecode+](https://apps.apple.com/au/app/timecode-cameraman/id590534084) `TSV` file as markers and titles in Final Cut Pro.
 
 Simply drag a `TSV` file into the drop zone, or click the **Select File** button:
 
@@ -303,11 +374,11 @@ However, if you have a more complicated collection of feedback, you can use Open
 
 ![](static/email-comments.png)
 
-To use the ChatGPT functionality you'll need to supply your own [OpenAI API key](https://platform.openai.com/account/api-keys){target="_blank"}..
+To use the ChatGPT functionality you'll need to supply your own [OpenAI API key](https://platform.openai.com/account/api-keys)..
 
 You can set up a OpenAI account for **free**, and you'll get a limited number of tokens. You can find OpenAI's pricing [here](https://openai.com/pricing).
 
-If you have a ChatGPT account, you can [get your API key here](https://platform.openai.com/account/api-keys){target="_blank"}.
+If you have a ChatGPT account, you can [get your API key here](https://platform.openai.com/account/api-keys).
 
 You can enter your OpenAI API Key in the Settings panel:
 
@@ -315,7 +386,7 @@ You can enter your OpenAI API Key in the Settings panel:
 
 Pressing the **Get API Key** button in the user interface, will open up the same above link.
 
-Your API key is securely saved in [macOS's Keychain](https://support.apple.com/en-au/guide/keychain-access/kyca1083/mac){target="_blank"}.
+Your API key is securely saved in [macOS's Keychain](https://support.apple.com/en-au/guide/keychain-access/kyca1083/mac).
 
 If you copy the API key from the OpenAI website, you can use the **Paste API Key** to paste it.
 
@@ -333,7 +404,7 @@ Depending on OpenAI's server load, this process can happen quickly, or take a fe
 
 ![](static/waiting.png)
 
-You can check the OpenAI Server Status [here](https://status.openai.com){target="_blank"}.
+You can check the OpenAI Server Status [here](https://status.openai.com).
 
 Once complete, you can now drag the green icon into your Final Cut Pro timeline or browser.
 
@@ -353,7 +424,7 @@ You can also customise the ChatGPT Model, Frame Rate and Prompt by clicking the 
 
 The default ChatGPT Model is **gpt-3.5-turbo**. If you have access to **gpt-3.5-turbo-16k**, **gpt-4** or **gpt-4-32k** you can also select them.
 
-You can learn more about the various ChatGPT models [here](https://platform.openai.com/docs/models){target="_blank"}.
+You can learn more about the various ChatGPT models [here](https://platform.openai.com/docs/models).
 
 The Frame Rate dropdown allows you to select the frame rate of your destination timeline/project. It's **25fps** by default.
 
@@ -368,11 +439,11 @@ The default prompt is:
 >
 > The JSON format should be as follows:
 >
-> [{\"timestamp\":\"<Seconds>\",\"comment\":\"<Comment>\"},...]
+> [{\"framecount\":\"<FrameCount>\",\"comment\":\"<Comment>\"},...]
 >
-> The <Seconds> value should never be below zero.
+> The <FrameCount> value should never be below zero.
 >
-> SMPTE timecode values (i.e. \"HH:MM:SS:FF\" for hours, minutes, seconds and frames), should be converted into seconds.
+> SMPTE timecode values (i.e. \"HH:MM:SS:FF\" for hours, minutes, seconds and frames), should be converted into a frame count.
 >
 > The frame rate of all SMTPE timecode values, and frame explanations (i.e. '300 frames later') should be <FRAMERATE>.
 >
@@ -391,20 +462,20 @@ The default prompt is:
 > Your reply should be:
 >
 > [
-> {\"timestamp\":\"1\", \"comment\":\"I really like this shot\"},
+> {\"timestamp\":\"25\", \"comment\":\"I really like this shot\"},
 > {\"timestamp\":\"2\", \"comment\":\"Please remove this shot\"},
-> {\"timestamp\":\"83\", \"comment\":\"Fix this window\"},
-> {\"timestamp\":\"300\", \"comment\":\"Remove the cat\"},
-> {\"timestamp\":\"600\", \"comment\":\"Replace this shot\"}
-> {\"timestamp\":\"0.04\", \"comment\":\"Add a sound effect here\"}
-> {\"timestamp\":\"6\", \"comment\":\"I really like the shot\"}
-> {\"timestamp\":\"16\", \"comment\":\"Something really cool happens\"}
-> {\"timestamp\":\"0.48\", \"comment\":\"Insert monkey\"}
+> {\"timestamp\":\"2075\", \"comment\":\"Fix this window\"},
+> {\"timestamp\":\"7500\", \"comment\":\"Remove the cat\"},
+> {\"timestamp\":\"15000\", \"comment\":\"Replace this shot\"}
+> {\"timestamp\":\"1\", \"comment\":\"Add a sound effect here\"}
+> {\"timestamp\":\"150\", \"comment\":\"I really like the shot\"}
+> {\"timestamp\":\"400\", \"comment\":\"Something really cool happens\"}
+> {\"timestamp\":\"12\", \"comment\":\"Insert monkey\"}
 > ]
 >
 > Please be careful about whether a timecode value is relative to the previous comment's timecode value (i.e. '10 seconds later') and calculate accordingly.
 >
-> If there is a general note with no timecode or timing value, please use a 0 second timestamp value.
+> If there is a general note with no timecode or timing value, please use a 0 frame count value.
 >
 > Please process the below notes:
 >

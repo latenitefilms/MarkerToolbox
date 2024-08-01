@@ -1,6 +1,6 @@
 # Installation
 
-To install **Marker Toolbox**, simply download it from the [Mac App Store](https://apps.apple.com/us/app/marker-toolbox/id6446810965){target="_blank"}, and open it once downloaded.
+To install **Marker Toolbox**, simply download it from the [Mac App Store](https://apps.apple.com/us/app/marker-toolbox/id6446810965), and open it once downloaded.
 
 ![](static/install.png)
 
