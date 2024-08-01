@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.768298919915">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.775861779974">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.768298919915" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.775861779974" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.768298919915" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.775861779974" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.768298919915" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.775861779974" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -334,6 +334,26 @@
         <span>Release Notes</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="v140-18">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#v140-18">#</doc-anchor-trigger>
+        <span>v1.4.0 (18)</span>
+    </h3>
+</doc-anchor-target>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>2nd August 2024</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F528;</span> Improvements:</strong></p>
+<ul>
+<li>Added support for Adobe Premiere CSVs. Thanks Michael Angelo!</li>
+<li>Wipster CSV support has been improved. We now display replies properly.</li>
+<li>Frame.io FIOJSON  support has been improved. The markers on 29.97fps projects should now more accurately match the Frame.io website. Thanks Shih-Cheng Yang!</li>
+<li>All of the timecode processing logic and maths has been completely redesigned and rewritten, so that we can better support all frame rates, and ensure everything is frame accurate. We now use TimecodeKit for timecode handling. HUGE thanks to Steffan Andrews for his incredible work!</li>
+<li>The default ChatGPT prompt has been updated to work in frames, rather than seconds for better accuracy. If you have a custom prompt, you should press the &quot;Reset Prompt&quot; button in the bottom settings to update the prompt to the new format.</li>
+<li>The latest OpenAI ChatGPT models are now supported.</li>
+</ul>
+<hr>
 <doc-anchor-target id="v132-17">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#v132-17">#</doc-anchor-trigger>

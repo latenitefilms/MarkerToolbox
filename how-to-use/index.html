@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.768298919915">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.775861779974">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.768298919915" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.775861779974" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.768298919915" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.775861779974" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.768298919915" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.775861779974" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -522,9 +522,13 @@
         <span>Convert Vimeo CSV to Markers</span>
     </h3>
 </doc-anchor-target>
+<p>Vimeo uses the following CSV header:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">&quot;Video Version&quot;,&quot;#&quot;,&quot;Timecode&quot;,&quot;Name&quot;,&quot;Note&quot;,&quot;Reply&quot;,&quot;Date Added&quot;,&quot;Resolved&quot;</code></pre>
+</doc-codeblock></div>
 <p>This feature allows you to easily import Vimeo <code v-pre>CSV</code> as markers and titles in Final Cut Pro.</p>
-<p>You can learn more about exporting <code v-pre>CSV</code> files from Vimeo <a href="https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-" class="outbound" target="_blank" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<p>This functionality has been built into <a href="https://commandpost.io" class="outbound" target="_blank" target="_blank"><span>CommandPost</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> for a while, however we&#x27;ve improved upon it based on user feedback.</p>
+<p>You can learn more about exporting <code v-pre>CSV</code> files from Vimeo <a href="https://vimeo.zendesk.com/hc/en-us/articles/224818367-Video-review-page-" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>This functionality has been built into <a href="https://commandpost.io" class="outbound" target="_blank"><span>CommandPost</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> for a while, however we&#x27;ve improved upon it based on user feedback.</p>
 <p>Once exported, simply drag a <code v-pre>CSV</code> file into the drop zone, or click the <strong>Select File</strong> button:</p>
 <p><figure class="content-center">
     <img src="../static/top-section.png" alt="">
@@ -587,6 +591,10 @@
         <span>Convert Wipster CSV to Markers</span>
     </h3>
 </doc-anchor-target>
+<p>Wipster uses the following CSV header:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">Title,Version,Timecode,Thread Id,Comment Type,Reply,Created By,Creation Date &amp; Time,Comment,Task Completed</code></pre>
+</doc-codeblock></div>
 <p>This feature allows you to easily import a Wipster <code v-pre>CSV</code> as markers and titles in Final Cut Pro.</p>
 <p>You can export a <code v-pre>CSV</code> from Wipster, by clicking the <strong>Download</strong> button on your video, then the <strong>Export CSV</strong> option.</p>
 <p><figure class="content-center">
@@ -594,7 +602,7 @@
     <figcaption class="caption"><em>Screenshot of Wipster</em></figcaption>
 </figure>
 </p>
-<p>You can learn more about exporting <code v-pre>CSV</code> files from Wipster <a href="https://intercom.help/wipster-support/en/articles/3350841-can-i-print-out-the-comments-on-my-video-or-image" class="outbound" target="_blank" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>You can learn more about exporting <code v-pre>CSV</code> files from Wipster <a href="https://intercom.help/wipster-support/en/articles/3350841-can-i-print-out-the-comments-on-my-video-or-image" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>Once exported, simply drag a <code v-pre>CSV</code> file into the drop zone, or click the <strong>Select File</strong> button:</p>
 <p><figure class="content-center">
     <img src="../static/top-section.png" alt="">
@@ -651,13 +659,82 @@
 </p>
 <p>These settings should be applied <strong>before</strong> you import a <code v-pre>CSV</code>. If you change them, you should import your <code v-pre>CSV</code> again for the <code v-pre>FCPXML</code> to be updated.</p>
 <hr>
+<doc-anchor-target id="convert-adobe-premiere-csv-to-markers">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-adobe-premiere-csv-to-markers">#</doc-anchor-trigger>
+        <span>Convert Adobe Premiere CSV to Markers</span>
+    </h3>
+</doc-anchor-target>
+<p>Adobe Premiere uses the following CSV header:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">Start Time,End Time,Text,Layer ID</code></pre>
+</doc-codeblock></div>
+<p>This feature allows you to easily import a Adobe Premiere <code v-pre>CSV</code> as markers and titles in Final Cut Pro.</p>
+<p>You can learn more about exporting <code v-pre>CSV</code> files from Adobe Premiere <a href="https://helpx.adobe.com/au/premiere-pro/using/export-text-captions.html" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>Once exported, simply drag a <code v-pre>CSV</code> file into the drop zone, or click the <strong>Select File</strong> button:</p>
+<p><figure class="content-center">
+    <img src="../static/top-section.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Assuming the <code v-pre>CSV</code> is correct and valid, the draggable icon on the bottom of the interface will now be green:</p>
+<p><figure class="content-center">
+    <img src="../static/drag.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can now drag this green icon into your Final Cut Pro timeline or browser.</p>
+<p>Alternatively, you can also click the <strong>Save File</strong> button, and export a:</p>
+<ul>
+<li>Final Cut Pro <code v-pre>FCPXML</code></li>
+<li>Resolve <code v-pre>EDL</code></li>
+<li>Avid Media Composer Marker Text.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../static/save-file.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>If you drag the icon to your timeline, a <strong>Compound Clip</strong> with all your markers will be added:</p>
+<p><figure class="content-center">
+    <img src="../static/timeline.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>You can then use the <strong>Clip &gt; Break Apart Clip Items</strong> menubar item to break the Compound Clip into individual markers:</p>
+<p><figure class="content-center">
+    <img src="../static/break-apart-clip-items.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>This is handy because the individual markers will now be attached to the clips on the Primary Storyline, so that when you re-arrange clips, those markers will travel with them.</p>
+<p><figure class="content-center">
+    <img src="../static/timeline-break-apart.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Back in the Workflow Extension if you click the <strong>Settings</strong> button, you can set the Frame Rate and what information is used for the Marker Name:</p>
+<p><figure class="content-center">
+    <img src="../static/top-settings.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>These settings should be applied <strong>before</strong> you import a <code v-pre>CSV</code>. If you change them, you should import your <code v-pre>CSV</code> again for the <code v-pre>FCPXML</code> to be updated.</p>
+<hr>
 <doc-anchor-target id="convert-timecode-tsv-to-markers">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#convert-timecode-tsv-to-markers">#</doc-anchor-trigger>
         <span>Convert Timecode+ TSV to Markers</span>
     </h3>
 </doc-anchor-target>
-<p>This feature allows you to easily import a <a href="https://apps.apple.com/au/app/timecode-cameraman/id590534084" class="outbound" target="_blank" target="_blank"><span>Timecode+</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> <code v-pre>TSV</code> file as markers and titles in Final Cut Pro.</p>
+<p>TSV files have the following format:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">NAME	Description	Apr 14 2023 02:48
+
+Time	Note
+00:01:06:00	Your note goes here</code></pre>
+</doc-codeblock></div>
+<p>This feature allows you to easily import a <a href="https://apps.apple.com/au/app/timecode-cameraman/id590534084" class="outbound" target="_blank"><span>Timecode+</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> <code v-pre>TSV</code> file as markers and titles in Final Cut Pro.</p>
 <p>Simply drag a <code v-pre>TSV</code> file into the drop zone, or click the <strong>Select File</strong> button:</p>
 <p><figure class="content-center">
     <img src="../static/top-section.png" alt="">
@@ -743,9 +820,9 @@ Please remove the shot at 10 minutes</code></pre>
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>To use the ChatGPT functionality you&#x27;ll need to supply your own <a href="https://platform.openai.com/account/api-keys" class="outbound" target="_blank" target="_blank"><span>OpenAI API key</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>..</p>
+<p>To use the ChatGPT functionality you&#x27;ll need to supply your own <a href="https://platform.openai.com/account/api-keys" class="outbound" target="_blank"><span>OpenAI API key</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>..</p>
 <p>You can set up a OpenAI account for <strong>free</strong>, and you&#x27;ll get a limited number of tokens. You can find OpenAI&#x27;s pricing <a href="https://openai.com/pricing" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
-<p>If you have a ChatGPT account, you can <a href="https://platform.openai.com/account/api-keys" class="outbound" target="_blank" target="_blank"><span>get your API key here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>If you have a ChatGPT account, you can <a href="https://platform.openai.com/account/api-keys" class="outbound" target="_blank"><span>get your API key here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>You can enter your OpenAI API Key in the Settings panel:</p>
 <p><figure class="content-center">
     <img src="../static/enter-api-key.png" alt="">
@@ -753,7 +830,7 @@ Please remove the shot at 10 minutes</code></pre>
 </figure>
 </p>
 <p>Pressing the <strong>Get API Key</strong> button in the user interface, will open up the same above link.</p>
-<p>Your API key is securely saved in <a href="https://support.apple.com/en-au/guide/keychain-access/kyca1083/mac" class="outbound" target="_blank" target="_blank"><span>macOS&#x27;s Keychain</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>Your API key is securely saved in <a href="https://support.apple.com/en-au/guide/keychain-access/kyca1083/mac" class="outbound" target="_blank"><span>macOS&#x27;s Keychain</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>If you copy the API key from the OpenAI website, you can use the <strong>Paste API Key</strong> to paste it.</p>
 <p>If the API key is valid, you&#x27;ll be pressed with this:</p>
 <p><figure class="content-center">
@@ -774,7 +851,7 @@ Please remove the shot at 10 minutes</code></pre>
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>You can check the OpenAI Server Status <a href="https://status.openai.com" class="outbound" target="_blank" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>You can check the OpenAI Server Status <a href="https://status.openai.com" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>Once complete, you can now drag the green icon into your Final Cut Pro timeline or browser.</p>
 <p><figure class="content-center">
     <img src="../static/drag.png" alt="">
@@ -799,7 +876,7 @@ Please remove the shot at 10 minutes</code></pre>
 </figure>
 </p>
 <p>The default ChatGPT Model is <strong>gpt-3.5-turbo</strong>. If you have access to <strong>gpt-3.5-turbo-16k</strong>, <strong>gpt-4</strong> or <strong>gpt-4-32k</strong> you can also select them.</p>
-<p>You can learn more about the various ChatGPT models <a href="https://platform.openai.com/docs/models" class="outbound" target="_blank" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>You can learn more about the various ChatGPT models <a href="https://platform.openai.com/docs/models" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
 <p>The Frame Rate dropdown allows you to select the frame rate of your destination timeline/project. It&#x27;s <strong>25fps</strong> by default.</p>
 <p>Finally, you can customise the ChatGPT prompt as required.</p>
 <p>The default prompt is:</p>
@@ -811,11 +888,11 @@ You should only ever reply with the JSON data. No further comments or explanatio
 
 The JSON format should be as follows:
 
-[{\&quot;timestamp\&quot;:\&quot;&lt;Seconds&gt;\&quot;,\&quot;comment\&quot;:\&quot;&lt;Comment&gt;\&quot;},...]
+[{\&quot;framecount\&quot;:\&quot;&lt;FrameCount&gt;\&quot;,\&quot;comment\&quot;:\&quot;&lt;Comment&gt;\&quot;},...]
 
-The &lt;Seconds&gt; value should never be below zero.
+The &lt;FrameCount&gt; value should never be below zero.
 
-SMPTE timecode values (i.e. \&quot;HH:MM:SS:FF\&quot; for hours, minutes, seconds and frames), should be converted into seconds.
+SMPTE timecode values (i.e. \&quot;HH:MM:SS:FF\&quot; for hours, minutes, seconds and frames), should be converted into a frame count.
 
 The frame rate of all SMTPE timecode values, and frame explanations (i.e. '300 frames later') should be &lt;FRAMERATE&gt;.
 
@@ -834,20 +911,20 @@ on frame 1 add a sound effect here
 Your reply should be:
 
 [
-{\&quot;timestamp\&quot;:\&quot;1\&quot;, \&quot;comment\&quot;:\&quot;I really like this shot\&quot;},
+{\&quot;timestamp\&quot;:\&quot;25\&quot;, \&quot;comment\&quot;:\&quot;I really like this shot\&quot;},
 {\&quot;timestamp\&quot;:\&quot;2\&quot;, \&quot;comment\&quot;:\&quot;Please remove this shot\&quot;},
-{\&quot;timestamp\&quot;:\&quot;83\&quot;, \&quot;comment\&quot;:\&quot;Fix this window\&quot;},
-{\&quot;timestamp\&quot;:\&quot;300\&quot;, \&quot;comment\&quot;:\&quot;Remove the cat\&quot;},
-{\&quot;timestamp\&quot;:\&quot;600\&quot;, \&quot;comment\&quot;:\&quot;Replace this shot\&quot;}
-{\&quot;timestamp\&quot;:\&quot;0.04\&quot;, \&quot;comment\&quot;:\&quot;Add a sound effect here\&quot;}
-{\&quot;timestamp\&quot;:\&quot;6\&quot;, \&quot;comment\&quot;:\&quot;I really like the shot\&quot;}
-{\&quot;timestamp\&quot;:\&quot;16\&quot;, \&quot;comment\&quot;:\&quot;Something really cool happens\&quot;}
-{\&quot;timestamp\&quot;:\&quot;0.48\&quot;, \&quot;comment\&quot;:\&quot;Insert monkey\&quot;}
+{\&quot;timestamp\&quot;:\&quot;2075\&quot;, \&quot;comment\&quot;:\&quot;Fix this window\&quot;},
+{\&quot;timestamp\&quot;:\&quot;7500\&quot;, \&quot;comment\&quot;:\&quot;Remove the cat\&quot;},
+{\&quot;timestamp\&quot;:\&quot;15000\&quot;, \&quot;comment\&quot;:\&quot;Replace this shot\&quot;}
+{\&quot;timestamp\&quot;:\&quot;1\&quot;, \&quot;comment\&quot;:\&quot;Add a sound effect here\&quot;}
+{\&quot;timestamp\&quot;:\&quot;150\&quot;, \&quot;comment\&quot;:\&quot;I really like the shot\&quot;}
+{\&quot;timestamp\&quot;:\&quot;400\&quot;, \&quot;comment\&quot;:\&quot;Something really cool happens\&quot;}
+{\&quot;timestamp\&quot;:\&quot;12\&quot;, \&quot;comment\&quot;:\&quot;Insert monkey\&quot;}
 ]
 
 Please be careful about whether a timecode value is relative to the previous comment's timecode value (i.e. '10 seconds later') and calculate accordingly.
 
-If there is a general note with no timecode or timing value, please use a 0 second timestamp value.
+If there is a general note with no timecode or timing value, please use a 0 frame count value.
 
 Please process the below notes:
 
