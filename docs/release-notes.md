@@ -1,5 +1,15 @@
 # Release Notes
 
+### v1.4.1 (19)
+
+**🎉 Released:**
+- 13th August 2024
+
+**🐞 Bug Fix:**
+- Fixed a bug/regression introduced in the v1.4.0 update where we accidentally broke "Process Comments Locally". Apologies! HUGE thanks to KenHell, Maksim Tarasenko, Gary Roll and Hamin Yoon for reporting!
+
+---
+
 ### v1.4.0 (18)
 
 **🎉 Released:**
