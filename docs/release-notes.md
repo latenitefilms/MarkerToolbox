@@ -1,5 +1,15 @@
 # Release Notes
 
+### v1.4.2 (20)
+
+**🎉 Released:**
+- 6th January 2025
+
+**🐞 Bug Fix:**
+- The "Apply Markers to Existing Final Cut Pro Clip" drop zone now works correctly with FCPXML v1.13 and Final Cut Pro 11. Thanks for reporting Jeff Roy!
+
+---
+
 ### v1.4.1 (19)
 
 **🎉 Released:**
