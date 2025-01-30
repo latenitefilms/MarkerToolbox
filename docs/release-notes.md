@@ -1,5 +1,15 @@
 # Release Notes
 
+### v1.5.0 (21)
+
+**🎉 Released:**
+- 30th January 2025
+
+**🥳 New Feature:**
+- Added support for MP4 Chapter Markers (such as Hybrid MP4 recordings from OBS). Thanks for suggesting Adam Olivero!
+
+---
+
 ### v1.4.2 (20)
 
 **🎉 Released:**
