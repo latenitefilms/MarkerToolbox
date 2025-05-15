@@ -1,5 +1,16 @@
 # Release Notes
 
+### v1.5.1 (22)
+
+**🎉 Released:**
+- 15th May 2025
+
+**🔨 Improvements:**
+- Add supported for Vimeo's new CSV format. Thanks for reporting Matt!
+- Updated TimecodeKit from `v2.0.11` to `v2.3.3`. Thanks Steffan Andrews!
+
+---
+
 ### v1.5.0 (21)
 
 **🎉 Released:**
