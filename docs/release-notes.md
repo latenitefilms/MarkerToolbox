@@ -1,5 +1,16 @@
 # Release Notes
 
+### v1.5.2 (23)
+
+**🎉 Released:**
+- 30th September 2025
+
+**🔨 Improvements:**
+- Add supported for Wipster's new CSV format. Thanks for reporting Alister Robbie!
+- Updated TimecodeKit from v2.3.3 to v2.3.4. Thanks Steffan Andrews!
+
+---
+
 ### v1.5.1 (22)
 
 **🎉 Released:**
